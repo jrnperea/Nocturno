@@ -1,5 +1,47 @@
 angular.module('starter.controllers', [])
 
+  .controller('LoginCtrl', [
+    '$scope', '$state', '$timeout', 'FirebaseDB',
+    function LoginCtrl($scope, $state, $timeout, FirebaseDB) {
+      console.log("Login Controller");
+
+      /**
+       *
+       */
+      $scope.doLoginAction = function (_credentials) {
+
+        FirebaseDB.login(_credentials).then(function (authData) {
+          console.log("Logged in as:", authData.uid);
+          $state.go('tab.chats', {})
+        }).catch(function (error) {
+          // Handle Errors here.
+          var errorCode = error.code;
+          var errorMessage = error.message;
+          console.error("Authentication failed:", error);
+          // ...
+        });
+
+      }
+
+      /**
+       *
+       */
+      $scope.doCreateUserAction = function (_credentials) {
+
+        FirebaseDB.createUser(_credentials).then(function (authData) {
+          console.log("Logged in as:", authData);
+          $state.go('tab.chats', {})
+        }).catch(function (error) {
+          // Handle Errors here.
+          var errorCode = error.code;
+          var errorMessage = error.message;
+          console.error("Authentication failed:", error);
+          // ...
+        });
+
+      }
+    }])
+
 .controller('DashCtrl', function($scope) {})
 
 .controller('ChatsCtrl', function($scope, Chats) {
