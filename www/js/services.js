@@ -7,7 +7,7 @@ angular.module('starter.services', [])
     return {
       initialize: function () {
 
-        // Inicializamos el Firebase, cambia el código por el tuyo dentro del var config
+        // Inicializamos el Firebase
         var config = {
           apiKey: "AIzaSyAHwNB4MMFcmKPRuaYtXHA2hi8M_CUkUow",
           authDomain: "nocturno-59890.firebaseapp.com",
@@ -80,7 +80,6 @@ angular.module('starter.services', [])
             "avatar": (authData.profileImageURL || "missing"),
             "displayName": authData.email
           })
-
         })
       }
     }
