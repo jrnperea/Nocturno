@@ -50,7 +50,6 @@ angular.module('starter.services', [])
        * return the currentUser object
        */
       currentUser: function () {
-        debugger;
         return firebase.auth().currentUser
       },
 
