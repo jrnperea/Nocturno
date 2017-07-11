@@ -1,0 +1,25 @@
+{
+  "projectName": "Sonar Web Front-End Reporter",
+  
+  "htmlhint": {
+    "src": "src/**/*.html",
+    "report": "reports/sonar/htmlhint.json",
+    "rulesFile": ".htmlhintrc"
+  },
+  
+  "eslintangular": {
+    "src": "src/**/*.js",
+    "report": "eslint-angular.json",
+    "rulesFile": ".eslintrc"
+  },
+  "jshint": {
+    "src": "src/**/*.js",
+    "report": "reports/sonar/jshint.json",
+    "rulesFile": ".jshintrc"
+  },
+  "tslint": {
+    "src": "src/**/*.ts",
+    "report": "reports/sonar/tslint.json",
+    "rulesFile": ".tslintrc"
+  }
+}
