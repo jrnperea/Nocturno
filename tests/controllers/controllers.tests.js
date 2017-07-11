@@ -12,8 +12,25 @@ describe('Controllers', function(){
     $controller('AccountCtrl', {$scope: scope});
   }));
 
-  // tests start here
-  it('should have enabled friends to be true', function(){
-    expect(scope.settings.enableFriends).toEqual(true);
+
+  it('comprobar password minimó 8 digitos', function(){
+    var pass = "colombia";
+    expect(scope.validatePassword(pass)).toEqual(true);
   });
+
+  it('validar password menos 8 digitos', function(){
+    var pass = "gateway";
+    expect(scope.validatePassword(pass)).toEqual(false);
+  });
+
+  it('validar email correcto', function(){
+    var mail = "holamundo@gmail.com";
+    expect(scope.validateEmail(mail)).toEqual(true);
+  });
+
+  it('validar email incorrecto', function(){
+    var mail = "holamundo@gmail";
+    expect(scope.validateEmail(mail)).toEqual(false);
+  });
+
 });
