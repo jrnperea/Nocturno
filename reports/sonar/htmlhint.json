@@ -1,0 +1,133 @@
+{
+  "project": "Sonar Web Front-End Reporter",
+  "projectPath": ".",
+  "version": "1.1.0",
+  "files": [
+    {
+      "name": "chat-detail.html",
+      "path": "www/templates/chat-detail.html",
+      "nbLines": 14,
+      "nbComments": 0,
+      "nbCloc": 14,
+      "violations": {
+        "blocker": 0,
+        "critical": 0,
+        "major": 0,
+        "minor": 0,
+        "info": 0
+      },
+      "issues": []
+    },
+    {
+      "name": "login.html",
+      "path": "www/templates/login.html",
+      "nbLines": 20,
+      "nbComments": 0,
+      "nbCloc": 20,
+      "violations": {
+        "blocker": 0,
+        "critical": 0,
+        "major": 1,
+        "minor": 0,
+        "info": 0
+      },
+      "issues": [
+        {
+          "line": 1,
+          "message": "The attribute name of [ hasHeader ] must be in lowercase.",
+          "description": "All attribute names must be in lowercase.",
+          "rulekey": "attr-lowercase",
+          "severity": "major",
+          "reporter": "htmlhint",
+          "creationDate": 1499761071736
+        }
+      ]
+    },
+    {
+      "name": "registroUsuario.html",
+      "path": "www/templates/registroUsuario.html",
+      "nbLines": 49,
+      "nbComments": 0,
+      "nbCloc": 49,
+      "violations": {
+        "blocker": 0,
+        "critical": 0,
+        "major": 0,
+        "minor": 0,
+        "info": 0
+      },
+      "issues": []
+    },
+    {
+      "name": "tab-account.html",
+      "path": "www/templates/tab-account.html",
+      "nbLines": 9,
+      "nbComments": 0,
+      "nbCloc": 9,
+      "violations": {
+        "blocker": 0,
+        "critical": 0,
+        "major": 0,
+        "minor": 0,
+        "info": 0
+      },
+      "issues": []
+    },
+    {
+      "name": "tab-chats.html",
+      "path": "www/templates/tab-chats.html",
+      "nbLines": 16,
+      "nbComments": 0,
+      "nbCloc": 14,
+      "violations": {
+        "blocker": 0,
+        "critical": 0,
+        "major": 0,
+        "minor": 0,
+        "info": 0
+      },
+      "issues": []
+    },
+    {
+      "name": "tab-dash.html",
+      "path": "www/templates/tab-dash.html",
+      "nbLines": 17,
+      "nbComments": 0,
+      "nbCloc": 17,
+      "violations": {
+        "blocker": 0,
+        "critical": 0,
+        "major": 0,
+        "minor": 0,
+        "info": 0
+      },
+      "issues": []
+    },
+    {
+      "name": "tabs.html",
+      "path": "www/templates/tabs.html",
+      "nbLines": 24,
+      "nbComments": 0,
+      "nbCloc": 19,
+      "violations": {
+        "blocker": 0,
+        "critical": 0,
+        "major": 0,
+        "minor": 0,
+        "info": 0
+      },
+      "issues": []
+    }
+  ],
+  "nbFiles": 7,
+  "nbLines": 149,
+  "nbCloc": 142,
+  "nbComments": 0,
+  "violations": {
+    "blocker": 0,
+    "critical": 0,
+    "major": 1,
+    "minor": 0,
+    "info": 0
+  }
+}

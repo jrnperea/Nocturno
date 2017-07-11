@@ -1,0 +1,759 @@
+{
+  "project": "Sonar Web Front-End Reporter",
+  "projectPath": ".",
+  "version": "1.1.0",
+  "files": [
+    {
+      "name": "app.js",
+      "path": "www/js/app.js",
+      "nbLines": 119,
+      "nbComments": 0,
+      "nbCloc": 119,
+      "violations": {
+        "blocker": 0,
+        "critical": 0,
+        "major": 14,
+        "minor": 0,
+        "info": 0
+      },
+      "issues": [
+        {
+          "line": 8,
+          "message": "Definition for rule 'angular/no-digest' was not found",
+          "description": "",
+          "rulekey": "ng_no_digest",
+          "severity": "major",
+          "reporter": "eslintangular",
+          "creationDate": 1499761071462
+        },
+        {
+          "line": 8,
+          "message": "Definition for rule 'angular/typecheck-regexp' was not found",
+          "description": "",
+          "rulekey": "ng_typecheck_regexp",
+          "severity": "major",
+          "reporter": "eslintangular",
+          "creationDate": 1499761071462
+        },
+        {
+          "line": 14,
+          "message": "You should use the $window service instead of the default window object",
+          "description": "",
+          "rulekey": "ng_window_service",
+          "severity": "major",
+          "reporter": "eslintangular",
+          "creationDate": 1499761071462
+        },
+        {
+          "line": 14,
+          "message": "You should use the $window service instead of the default window object",
+          "description": "",
+          "rulekey": "ng_window_service",
+          "severity": "major",
+          "reporter": "eslintangular",
+          "creationDate": 1499761071462
+        },
+        {
+          "line": 14,
+          "message": "You should use the $window service instead of the default window object",
+          "description": "",
+          "rulekey": "ng_window_service",
+          "severity": "major",
+          "reporter": "eslintangular",
+          "creationDate": 1499761071462
+        },
+        {
+          "line": 15,
+          "message": "'cordova' is not defined.",
+          "description": "",
+          "rulekey": "ng_no_undef",
+          "severity": "major",
+          "reporter": "eslintangular",
+          "creationDate": 1499761071462
+        },
+        {
+          "line": 16,
+          "message": "'cordova' is not defined.",
+          "description": "",
+          "rulekey": "ng_no_undef",
+          "severity": "major",
+          "reporter": "eslintangular",
+          "creationDate": 1499761071462
+        },
+        {
+          "line": 18,
+          "message": "You should use the $window service instead of the default window object",
+          "description": "",
+          "rulekey": "ng_window_service",
+          "severity": "major",
+          "reporter": "eslintangular",
+          "creationDate": 1499761071462
+        },
+        {
+          "line": 20,
+          "message": "'StatusBar' is not defined.",
+          "description": "",
+          "rulekey": "ng_no_undef",
+          "severity": "major",
+          "reporter": "eslintangular",
+          "creationDate": 1499761071462
+        },
+        {
+          "line": 27,
+          "message": "The \"$on\" call should be assigned to a variable, in order to be destroyed during the $destroy event",
+          "description": "",
+          "rulekey": "ng_on_watch",
+          "severity": "major",
+          "reporter": "eslintangular",
+          "creationDate": 1499761071462
+        },
+        {
+          "line": 33,
+          "message": "Unexpected console statement.",
+          "description": "",
+          "rulekey": "ng_no_console",
+          "severity": "major",
+          "reporter": "eslintangular",
+          "creationDate": 1499761071462
+        },
+        {
+          "line": 33,
+          "message": "You should use the \"log\" method of the AngularJS Service $log instead of the console object",
+          "description": "",
+          "rulekey": "ng_log",
+          "severity": "major",
+          "reporter": "eslintangular",
+          "creationDate": 1499761071462
+        },
+        {
+          "line": 46,
+          "message": "State \"login\" should use controllerAs syntax",
+          "description": "",
+          "rulekey": "ng_controller_as_route",
+          "severity": "major",
+          "reporter": "eslintangular",
+          "creationDate": 1499761071462
+        },
+        {
+          "line": 46,
+          "message": "State \"registroUsuario\" should use controllerAs syntax",
+          "description": "",
+          "rulekey": "ng_controller_as_route",
+          "severity": "major",
+          "reporter": "eslintangular",
+          "creationDate": 1499761071462
+        }
+      ]
+    },
+    {
+      "name": "controllers.js",
+      "path": "www/js/controllers.js",
+      "nbLines": 117,
+      "nbComments": 0,
+      "nbCloc": 111,
+      "violations": {
+        "blocker": 0,
+        "critical": 0,
+        "major": 49,
+        "minor": 0,
+        "info": 0
+      },
+      "issues": [
+        {
+          "line": 1,
+          "message": "Definition for rule 'angular/no-digest' was not found",
+          "description": "",
+          "rulekey": "ng_no_digest",
+          "severity": "major",
+          "reporter": "eslintangular",
+          "creationDate": 1499761071544
+        },
+        {
+          "line": 1,
+          "message": "The AccountCtrl controller should follow this pattern: /[A-Z].*Controller$/",
+          "description": "",
+          "rulekey": "ng_controller_name",
+          "severity": "major",
+          "reporter": "eslintangular",
+          "creationDate": 1499761071544
+        },
+        {
+          "line": 1,
+          "message": "The ChatDetailCtrl controller should follow this pattern: /[A-Z].*Controller$/",
+          "description": "",
+          "rulekey": "ng_controller_name",
+          "severity": "major",
+          "reporter": "eslintangular",
+          "creationDate": 1499761071544
+        },
+        {
+          "line": 1,
+          "message": "The ChatDetailCtrl controller should follow this pattern: /[A-Z].*Controller$/",
+          "description": "",
+          "rulekey": "ng_controller_name",
+          "severity": "major",
+          "reporter": "eslintangular",
+          "creationDate": 1499761071544
+        },
+        {
+          "line": 1,
+          "message": "The ChatsCtrl controller should follow this pattern: /[A-Z].*Controller$/",
+          "description": "",
+          "rulekey": "ng_controller_name",
+          "severity": "major",
+          "reporter": "eslintangular",
+          "creationDate": 1499761071544
+        },
+        {
+          "line": 1,
+          "message": "The DashCtrl controller should follow this pattern: /[A-Z].*Controller$/",
+          "description": "",
+          "rulekey": "ng_controller_name",
+          "severity": "major",
+          "reporter": "eslintangular",
+          "creationDate": 1499761071544
+        },
+        {
+          "line": 1,
+          "message": "The LoginCtrl controller should follow this pattern: /[A-Z].*Controller$/",
+          "description": "",
+          "rulekey": "ng_controller_name",
+          "severity": "major",
+          "reporter": "eslintangular",
+          "creationDate": 1499761071544
+        },
+        {
+          "line": 1,
+          "message": "Definition for rule 'angular/typecheck-regexp' was not found",
+          "description": "",
+          "rulekey": "ng_typecheck_regexp",
+          "severity": "major",
+          "reporter": "eslintangular",
+          "creationDate": 1499761071544
+        },
+        {
+          "line": 5,
+          "message": "You should use the function syntax for DI",
+          "description": "",
+          "rulekey": "ng_di",
+          "severity": "major",
+          "reporter": "eslintangular",
+          "creationDate": 1499761071544
+        },
+        {
+          "line": 6,
+          "message": "You should use the \"log\" method of the AngularJS Service $log instead of the console object",
+          "description": "",
+          "rulekey": "ng_log",
+          "severity": "major",
+          "reporter": "eslintangular",
+          "creationDate": 1499761071544
+        },
+        {
+          "line": 6,
+          "message": "Unexpected console statement.",
+          "description": "",
+          "rulekey": "ng_no_console",
+          "severity": "major",
+          "reporter": "eslintangular",
+          "creationDate": 1499761071544
+        },
+        {
+          "line": 8,
+          "message": "You should not set properties on $scope in controllers. Use controllerAs syntax and add data to \"this\"",
+          "description": "",
+          "rulekey": "ng_controller_as",
+          "severity": "major",
+          "reporter": "eslintangular",
+          "creationDate": 1499761071544
+        },
+        {
+          "line": 11,
+          "message": "You should use the \"log\" method of the AngularJS Service $log instead of the console object",
+          "description": "",
+          "rulekey": "ng_log",
+          "severity": "major",
+          "reporter": "eslintangular",
+          "creationDate": 1499761071544
+        },
+        {
+          "line": 11,
+          "message": "Unexpected console statement.",
+          "description": "",
+          "rulekey": "ng_no_console",
+          "severity": "major",
+          "reporter": "eslintangular",
+          "creationDate": 1499761071544
+        },
+        {
+          "line": 16,
+          "message": "'errorCode' is assigned a value but never used.",
+          "description": "",
+          "rulekey": "ng_no_unused_vars",
+          "severity": "major",
+          "reporter": "eslintangular",
+          "creationDate": 1499761071544
+        },
+        {
+          "line": 17,
+          "message": "'errorMessage' is assigned a value but never used.",
+          "description": "",
+          "rulekey": "ng_no_unused_vars",
+          "severity": "major",
+          "reporter": "eslintangular",
+          "creationDate": 1499761071544
+        },
+        {
+          "line": 18,
+          "message": "You should use the \"error\" method of the AngularJS Service $log instead of the console object",
+          "description": "",
+          "rulekey": "ng_log",
+          "severity": "major",
+          "reporter": "eslintangular",
+          "creationDate": 1499761071544
+        },
+        {
+          "line": 18,
+          "message": "Unexpected console statement.",
+          "description": "",
+          "rulekey": "ng_no_console",
+          "severity": "major",
+          "reporter": "eslintangular",
+          "creationDate": 1499761071544
+        },
+        {
+          "line": 22,
+          "message": "You should not set properties on $scope in controllers. Use controllerAs syntax and add data to \"this\"",
+          "description": "",
+          "rulekey": "ng_controller_as",
+          "severity": "major",
+          "reporter": "eslintangular",
+          "creationDate": 1499761071544
+        },
+        {
+          "line": 24,
+          "message": "You should use the \"log\" method of the AngularJS Service $log instead of the console object",
+          "description": "",
+          "rulekey": "ng_log",
+          "severity": "major",
+          "reporter": "eslintangular",
+          "creationDate": 1499761071544
+        },
+        {
+          "line": 24,
+          "message": "Unexpected console statement.",
+          "description": "",
+          "rulekey": "ng_no_console",
+          "severity": "major",
+          "reporter": "eslintangular",
+          "creationDate": 1499761071544
+        },
+        {
+          "line": 28,
+          "message": "'errorCode' is assigned a value but never used.",
+          "description": "",
+          "rulekey": "ng_no_unused_vars",
+          "severity": "major",
+          "reporter": "eslintangular",
+          "creationDate": 1499761071544
+        },
+        {
+          "line": 29,
+          "message": "'errorMessage' is assigned a value but never used.",
+          "description": "",
+          "rulekey": "ng_no_unused_vars",
+          "severity": "major",
+          "reporter": "eslintangular",
+          "creationDate": 1499761071544
+        },
+        {
+          "line": 30,
+          "message": "Unexpected console statement.",
+          "description": "",
+          "rulekey": "ng_no_console",
+          "severity": "major",
+          "reporter": "eslintangular",
+          "creationDate": 1499761071544
+        },
+        {
+          "line": 30,
+          "message": "You should use the \"error\" method of the AngularJS Service $log instead of the console object",
+          "description": "",
+          "rulekey": "ng_log",
+          "severity": "major",
+          "reporter": "eslintangular",
+          "creationDate": 1499761071544
+        },
+        {
+          "line": 36,
+          "message": "'$scope' is defined but never used.",
+          "description": "",
+          "rulekey": "ng_no_unused_vars",
+          "severity": "major",
+          "reporter": "eslintangular",
+          "creationDate": 1499761071544
+        },
+        {
+          "line": 42,
+          "message": "You should not set properties on $scope in controllers. Use controllerAs syntax and add data to \"this\"",
+          "description": "",
+          "rulekey": "ng_controller_as",
+          "severity": "major",
+          "reporter": "eslintangular",
+          "creationDate": 1499761071544
+        },
+        {
+          "line": 46,
+          "message": "'firebase' is not defined.",
+          "description": "",
+          "rulekey": "ng_no_undef",
+          "severity": "major",
+          "reporter": "eslintangular",
+          "creationDate": 1499761071544
+        },
+        {
+          "line": 51,
+          "message": "You should not set properties on $scope in controllers. Use controllerAs syntax and add data to \"this\"",
+          "description": "",
+          "rulekey": "ng_controller_as",
+          "severity": "major",
+          "reporter": "eslintangular",
+          "creationDate": 1499761071544
+        },
+        {
+          "line": 52,
+          "message": "You should not set properties on $scope in controllers. Use controllerAs syntax and add data to \"this\"",
+          "description": "",
+          "rulekey": "ng_controller_as",
+          "severity": "major",
+          "reporter": "eslintangular",
+          "creationDate": 1499761071544
+        },
+        {
+          "line": 60,
+          "message": "You should not set properties on $scope in controllers. Use controllerAs syntax and add data to \"this\"",
+          "description": "",
+          "rulekey": "ng_controller_as",
+          "severity": "major",
+          "reporter": "eslintangular",
+          "creationDate": 1499761071544
+        },
+        {
+          "line": 63,
+          "message": "You should not set properties on $scope in controllers. Use controllerAs syntax and add data to \"this\"",
+          "description": "",
+          "rulekey": "ng_controller_as",
+          "severity": "major",
+          "reporter": "eslintangular",
+          "creationDate": 1499761071544
+        },
+        {
+          "line": 68,
+          "message": "'firebase' is not defined.",
+          "description": "",
+          "rulekey": "ng_no_undef",
+          "severity": "major",
+          "reporter": "eslintangular",
+          "creationDate": 1499761071544
+        },
+        {
+          "line": 69,
+          "message": "Unexpected console statement.",
+          "description": "",
+          "rulekey": "ng_no_console",
+          "severity": "major",
+          "reporter": "eslintangular",
+          "creationDate": 1499761071544
+        },
+        {
+          "line": 69,
+          "message": "You should use the \"log\" method of the AngularJS Service $log instead of the console object",
+          "description": "",
+          "rulekey": "ng_log",
+          "severity": "major",
+          "reporter": "eslintangular",
+          "creationDate": 1499761071544
+        },
+        {
+          "line": 76,
+          "message": "You should not set properties on $scope in controllers. Use controllerAs syntax and add data to \"this\"",
+          "description": "",
+          "rulekey": "ng_controller_as",
+          "severity": "major",
+          "reporter": "eslintangular",
+          "creationDate": 1499761071544
+        },
+        {
+          "line": 79,
+          "message": "You should not set properties on $scope in controllers. Use controllerAs syntax and add data to \"this\"",
+          "description": "",
+          "rulekey": "ng_controller_as",
+          "severity": "major",
+          "reporter": "eslintangular",
+          "creationDate": 1499761071544
+        },
+        {
+          "line": 84,
+          "message": "'firebase' is not defined.",
+          "description": "",
+          "rulekey": "ng_no_undef",
+          "severity": "major",
+          "reporter": "eslintangular",
+          "creationDate": 1499761071544
+        },
+        {
+          "line": 85,
+          "message": "You should use the \"log\" method of the AngularJS Service $log instead of the console object",
+          "description": "",
+          "rulekey": "ng_log",
+          "severity": "major",
+          "reporter": "eslintangular",
+          "creationDate": 1499761071544
+        },
+        {
+          "line": 85,
+          "message": "Unexpected console statement.",
+          "description": "",
+          "rulekey": "ng_no_console",
+          "severity": "major",
+          "reporter": "eslintangular",
+          "creationDate": 1499761071544
+        },
+        {
+          "line": 91,
+          "message": "You should not set properties on $scope in controllers. Use controllerAs syntax and add data to \"this\"",
+          "description": "",
+          "rulekey": "ng_controller_as",
+          "severity": "major",
+          "reporter": "eslintangular",
+          "creationDate": 1499761071544
+        },
+        {
+          "line": 96,
+          "message": "You should not set properties on $scope in controllers. Use controllerAs syntax and add data to \"this\"",
+          "description": "",
+          "rulekey": "ng_controller_as",
+          "severity": "major",
+          "reporter": "eslintangular",
+          "creationDate": 1499761071544
+        },
+        {
+          "line": 101,
+          "message": "You should not set properties on $scope in controllers. Use controllerAs syntax and add data to \"this\"",
+          "description": "",
+          "rulekey": "ng_controller_as",
+          "severity": "major",
+          "reporter": "eslintangular",
+          "creationDate": 1499761071544
+        },
+        {
+          "line": 109,
+          "message": "You should not set properties on $scope in controllers. Use controllerAs syntax and add data to \"this\"",
+          "description": "",
+          "rulekey": "ng_controller_as",
+          "severity": "major",
+          "reporter": "eslintangular",
+          "creationDate": 1499761071544
+        },
+        {
+          "line": 110,
+          "message": "'$timeout' is not defined.",
+          "description": "",
+          "rulekey": "ng_no_undef",
+          "severity": "major",
+          "reporter": "eslintangular",
+          "creationDate": 1499761071544
+        },
+        {
+          "line": 111,
+          "message": "'$state' is not defined.",
+          "description": "",
+          "rulekey": "ng_no_undef",
+          "severity": "major",
+          "reporter": "eslintangular",
+          "creationDate": 1499761071544
+        },
+        {
+          "line": 113,
+          "message": "You should use the \"log\" method of the AngularJS Service $log instead of the console object",
+          "description": "",
+          "rulekey": "ng_log",
+          "severity": "major",
+          "reporter": "eslintangular",
+          "creationDate": 1499761071544
+        },
+        {
+          "line": 113,
+          "message": "Unexpected console statement.",
+          "description": "",
+          "rulekey": "ng_no_console",
+          "severity": "major",
+          "reporter": "eslintangular",
+          "creationDate": 1499761071544
+        },
+        {
+          "line": 114,
+          "message": "'firebase' is not defined.",
+          "description": "",
+          "rulekey": "ng_no_undef",
+          "severity": "major",
+          "reporter": "eslintangular",
+          "creationDate": 1499761071544
+        }
+      ]
+    },
+    {
+      "name": "services.js",
+      "path": "www/js/services.js",
+      "nbLines": 135,
+      "nbComments": 0,
+      "nbCloc": 122,
+      "violations": {
+        "blocker": 0,
+        "critical": 0,
+        "major": 14,
+        "minor": 0,
+        "info": 0
+      },
+      "issues": [
+        {
+          "line": 1,
+          "message": "Definition for rule 'angular/no-digest' was not found",
+          "description": "",
+          "rulekey": "ng_no_digest",
+          "severity": "major",
+          "reporter": "eslintangular",
+          "creationDate": 1499761071623
+        },
+        {
+          "line": 1,
+          "message": "Definition for rule 'angular/typecheck-regexp' was not found",
+          "description": "",
+          "rulekey": "ng_typecheck_regexp",
+          "severity": "major",
+          "reporter": "eslintangular",
+          "creationDate": 1499761071623
+        },
+        {
+          "line": 3,
+          "message": "'$timeout' is defined but never used.",
+          "description": "",
+          "rulekey": "ng_no_unused_vars",
+          "severity": "major",
+          "reporter": "eslintangular",
+          "creationDate": 1499761071623
+        },
+        {
+          "line": 4,
+          "message": "'unsubscribe' is assigned a value but never used.",
+          "description": "",
+          "rulekey": "ng_no_unused_vars",
+          "severity": "major",
+          "reporter": "eslintangular",
+          "creationDate": 1499761071623
+        },
+        {
+          "line": 5,
+          "message": "'initialized' is assigned a value but never used.",
+          "description": "",
+          "rulekey": "ng_no_unused_vars",
+          "severity": "major",
+          "reporter": "eslintangular",
+          "creationDate": 1499761071623
+        },
+        {
+          "line": 22,
+          "message": "'firebase' is not defined.",
+          "description": "",
+          "rulekey": "ng_no_undef",
+          "severity": "major",
+          "reporter": "eslintangular",
+          "creationDate": 1499761071623
+        },
+        {
+          "line": 23,
+          "message": "'firebase' is not defined.",
+          "description": "",
+          "rulekey": "ng_no_undef",
+          "severity": "major",
+          "reporter": "eslintangular",
+          "creationDate": 1499761071623
+        },
+        {
+          "line": 27,
+          "message": "'firebase' is not defined.",
+          "description": "",
+          "rulekey": "ng_no_undef",
+          "severity": "major",
+          "reporter": "eslintangular",
+          "creationDate": 1499761071623
+        },
+        {
+          "line": 29,
+          "message": "Unexpected console statement.",
+          "description": "",
+          "rulekey": "ng_no_console",
+          "severity": "major",
+          "reporter": "eslintangular",
+          "creationDate": 1499761071623
+        },
+        {
+          "line": 29,
+          "message": "You should use the \"log\" method of the AngularJS Service $log instead of the console object",
+          "description": "",
+          "rulekey": "ng_log",
+          "severity": "major",
+          "reporter": "eslintangular",
+          "creationDate": 1499761071623
+        },
+        {
+          "line": 46,
+          "message": "'firebase' is not defined.",
+          "description": "",
+          "rulekey": "ng_no_undef",
+          "severity": "major",
+          "reporter": "eslintangular",
+          "creationDate": 1499761071623
+        },
+        {
+          "line": 53,
+          "message": "'firebase' is not defined.",
+          "description": "",
+          "rulekey": "ng_no_undef",
+          "severity": "major",
+          "reporter": "eslintangular",
+          "creationDate": 1499761071623
+        },
+        {
+          "line": 60,
+          "message": "'firebase' is not defined.",
+          "description": "",
+          "rulekey": "ng_no_undef",
+          "severity": "major",
+          "reporter": "eslintangular",
+          "creationDate": 1499761071623
+        },
+        {
+          "line": 70,
+          "message": "'firebase' is not defined.",
+          "description": "",
+          "rulekey": "ng_no_undef",
+          "severity": "major",
+          "reporter": "eslintangular",
+          "creationDate": 1499761071623
+        }
+      ]
+    }
+  ],
+  "nbFiles": 3,
+  "nbLines": 371,
+  "nbCloc": 352,
+  "nbComments": 0,
+  "violations": {
+    "blocker": 0,
+    "critical": 0,
+    "major": 77,
+    "minor": 0,
+    "info": 0
+  }
+}

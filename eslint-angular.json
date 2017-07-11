@@ -1,0 +1,17 @@
+{
+  "project": "Sonar Web Front-End Reporter",
+  "projectPath": ".",
+  "version": "1.1.0",
+  "files": [],
+  "nbFiles": 0,
+  "nbLines": 0,
+  "nbCloc": 0,
+  "nbComments": 0,
+  "violations": {
+    "blocker": 0,
+    "critical": 0,
+    "major": 0,
+    "minor": 0,
+    "info": 0
+  }
+}

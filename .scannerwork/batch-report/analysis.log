@@ -1,0 +1,150 @@
+Environment variables:
+  - =::=::\
+  - =D:=D:\projects\nocturno.bak
+  - ALLUSERSPROFILE=C:\ProgramData
+  - ANDROID_HOME=D:\Apps\SDK
+  - APPDATA=C:\Users\JR\AppData\Roaming
+  - COMPUTERNAME=JR-PC
+  - ComSpec=C:\Windows\system32\cmd.exe
+  - CommonProgramFiles=C:\Program Files\Common Files
+  - CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+  - CommonProgramW6432=C:\Program Files\Common Files
+  - ERROR_CODE=0
+  - FP_NO_HOST_CHECK=NO
+  - HOMEDRIVE=C:
+  - HOMEPATH=\Users\JR
+  - JAVA_EXEC="C:\sonar-scanner\bin\..\jre\bin\java.exe"
+  - JAVA_HOME=C:\sonar-scanner\bin\..\jre
+  - LOCALAPPDATA=C:\Users\JR\AppData\Local
+  - LOGONSERVER=\\JR-PC
+  - NUMBER_OF_PROCESSORS=8
+  - OS=Windows_NT
+  - PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+  - PROCESSOR_ARCHITECTURE=AMD64
+  - PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 58 Stepping 9, GenuineIntel
+  - PROCESSOR_LEVEL=6
+  - PROCESSOR_REVISION=3a09
+  - PROJECT_HOME=D:\projects\nocturno.bak
+  - PROMPT=$P$G
+  - PSModulePath=C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+  - PUBLIC=C:\Users\Public
+  - Path=C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\HP SimplePass\x64;C:\Program Files (x86)\HP SimplePass\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Toshiba\Bluetooth Toshiba Stack\sys\;C:\Program Files (x86)\Toshiba\Bluetooth Toshiba Stack\sys\x64\;C:\Program Files (x86)\Skype\Phone\;C:\nodejs\;C:\Program Files\Git\cmd;D:\Apps\AndroidStudio\gradle\gradle-3.2\bin;C:\Users\JR\AppData\Roaming\npm;C:\phantomjs\bin;C:\Users\JR\AppData\Roaming\npm
+  - ProgramData=C:\ProgramData
+  - ProgramFiles=C:\Program Files
+  - ProgramFiles(x86)=C:\Program Files (x86)
+  - ProgramW6432=C:\Program Files
+  - SESSIONNAME=Console
+  - SONAR_SCANNER_HOME=C:\sonar-scanner\bin\..
+  - SystemDrive=C:
+  - SystemRoot=C:\Windows
+  - TEMP=C:\Users\JR\AppData\Local\Temp
+  - TMP=C:\Users\JR\AppData\Local\Temp
+  - USERDOMAIN=JR-PC
+  - USERNAME=JR
+  - USERPROFILE=C:\Users\JR
+  - VBOX_MSI_INSTALL_PATH=C:\Program Files\Oracle\VirtualBox\
+  - __COMPAT_LAYER=RunAsAdmin
+  - scriptdir=C:\sonar-scanner\bin
+  - use_embedded_jre=true
+  - windir=C:\Windows
+  - windows_tracing_flags=3
+  - windows_tracing_logfile=C:\BVTBin\Tests\installpackage\csilogfile.log
+System properties:
+  - awt.toolkit=sun.awt.windows.WToolkit
+  - file.encoding=Cp1252
+  - file.encoding.pkg=sun.io
+  - file.separator=\
+  - java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment
+  - java.awt.headless=true
+  - java.awt.printerjob=sun.awt.windows.WPrinterJob
+  - java.class.path=C:\sonar-scanner\bin\..\lib\sonar-scanner-cli-3.0.3.778.jar
+  - java.class.version=52.0
+  - java.endorsed.dirs=C:\sonar-scanner\jre\lib\endorsed
+  - java.ext.dirs=C:\sonar-scanner\jre\lib\ext;C:\Windows\Sun\Java\lib\ext
+  - java.home=C:\sonar-scanner\jre
+  - java.io.tmpdir=C:\Users\JR\AppData\Local\Temp\
+  - java.library.path=C:\sonar-scanner\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\HP SimplePass\x64;C:\Program Files (x86)\HP SimplePass\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Toshiba\Bluetooth Toshiba Stack\sys\;C:\Program Files (x86)\Toshiba\Bluetooth Toshiba Stack\sys\x64\;C:\Program Files (x86)\Skype\Phone\;C:\nodejs\;C:\Program Files\Git\cmd;D:\Apps\AndroidStudio\gradle\gradle-3.2\bin;C:\Users\JR\AppData\Roaming\npm;C:\phantomjs\bin;C:\Users\JR\AppData\Roaming\npm;.
+  - java.runtime.name=Java(TM) SE Runtime Environment
+  - java.runtime.version=1.8.0_121-b13
+  - java.specification.name=Java Platform API Specification
+  - java.specification.vendor=Oracle Corporation
+  - java.specification.version=1.8
+  - java.vendor=Oracle Corporation
+  - java.vendor.url=http://java.oracle.com/
+  - java.vendor.url.bug=http://bugreport.sun.com/bugreport/
+  - java.version=1.8.0_121
+  - java.vm.info=mixed mode
+  - java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+  - java.vm.specification.name=Java Virtual Machine Specification
+  - java.vm.specification.vendor=Oracle Corporation
+  - java.vm.specification.version=1.8
+  - java.vm.vendor=Oracle Corporation
+  - java.vm.version=25.121-b13
+  - line.separator=
+
+  - os.arch=amd64
+  - os.name=Windows 7
+  - os.version=6.1
+  - path.separator=;
+  - project.home=D:\projects\nocturno.bak
+  - scanner.home=C:\sonar-scanner\bin\..
+  - sun.arch.data.model=64
+  - sun.boot.class.path=C:\sonar-scanner\jre\lib\resources.jar;C:\sonar-scanner\jre\lib\rt.jar;C:\sonar-scanner\jre\lib\sunrsasign.jar;C:\sonar-scanner\jre\lib\jsse.jar;C:\sonar-scanner\jre\lib\jce.jar;C:\sonar-scanner\jre\lib\charsets.jar;C:\sonar-scanner\jre\lib\jfr.jar;C:\sonar-scanner\jre\classes
+  - sun.boot.library.path=C:\sonar-scanner\jre\bin
+  - sun.cpu.endian=little
+  - sun.cpu.isalist=amd64
+  - sun.desktop=windows
+  - sun.io.unicode.encoding=UnicodeLittle
+  - sun.java.command=org.sonarsource.scanner.cli.Main -X
+  - sun.java.launcher=SUN_STANDARD
+  - sun.jnu.encoding=Cp1252
+  - sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+  - sun.os.patch.level=Service Pack 1
+  - sun.stderr.encoding=cp437
+  - sun.stdout.encoding=cp437
+  - user.country=US
+  - user.dir=D:\projects\nocturno.bak
+  - user.home=C:\Users\JR
+  - user.language=en
+  - user.name=JR
+  - user.script=
+  - user.timezone=America/Bogota
+  - user.variant=
+SonarQube plugins:
+  - SII web frontend plugin :: JS/CSS/HTML/SCSS 2.1.0 (webfrontend)
+  - C# 5.10.1.1411 (csharp)
+  - Python 1.7.0.1195 (python)
+  - SonarJava 4.9.0.9858 (java)
+  - Flex 2.3 (flex)
+  - Git 1.2 (scmgit)
+  - SonarXML 1.4.2.885 (xml)
+  - SonarPHP 2.10.0.2087 (php)
+  - SVN 1.4.0.522 (scmsvn)
+  - SonarJS 3.0.0.4962 (javascript)
+Global properties:
+  - sonar.core.id=AV0cBTSMP2e1A4zR3VcH
+  - sonar.core.startTime=2017-07-10T22:38:43-0500
+  - sonar.javascript.ignoreHeaderComments=true
+Settings for module: nocturno
+  - sonar.exclusions=node_modules/**/*, report/**/*, www/lib/**/*
+  - sonar.projectBaseDir=D:\projects\nocturno.bak
+  - sonar.projectKey=nocturno
+  - sonar.projectName=nocturno
+  - sonar.projectVersion=1.0
+  - sonar.sii.coverage.it.js.report.path=reports/sonar/js-it.lcov
+  - sonar.sii.coverage.ut.js.report.path=reports/sonar/js-unit.lcov
+  - sonar.sii.duplication.css.report.path=reports/sonar/css-duplication.xml
+  - sonar.sii.duplication.html.report.path=reports/sonar/html-duplication.xml
+  - sonar.sii.duplication.js.report.path=reports/sonar/js-duplication.xml
+  - sonar.sii.duplication.scss.report.path=reports/sonar/scss-duplication.xml
+  - sonar.sii.quality.angular.eslint.report.path=reports/sonar/eslint-angular.json
+  - sonar.sii.quality.css.report.path=reports/sonar/csslint.json
+  - sonar.sii.quality.html.report.path=reports/sonar/htmlhint.json
+  - sonar.sii.quality.js.report.path=reports/sonar/jshint.json
+  - sonar.sii.quality.scss.report.path=reports/sonar/scsslint.json
+  - sonar.sii.test.it.js.report.path=reports/sonar/js-it.xml
+  - sonar.sii.test.unit.js.report.path=reports/sonar/js-unit.xml
+  - sonar.sourceEncoding=UTF-8
+  - sonar.sources=D:/projects/nocturno.bak/www/
+  - sonar.verbose=true
+  - sonar.working.directory=D:\projects\nocturno.bak\.scannerwork

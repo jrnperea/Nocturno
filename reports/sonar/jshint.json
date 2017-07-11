@@ -1,0 +1,813 @@
+{
+  "project": "Sonar Web Front-End Reporter",
+  "projectPath": ".",
+  "version": "1.1.0",
+  "files": [
+    {
+      "name": "app.js",
+      "path": "www/js/app.js",
+      "nbLines": 119,
+      "nbComments": 0,
+      "nbCloc": 119,
+      "violations": {
+        "blocker": 0,
+        "critical": 0,
+        "major": 13,
+        "minor": 0,
+        "info": 0
+      },
+      "issues": [
+        {
+          "line": 11,
+          "message": "Missing \"use strict\" statement.",
+          "description": "Missing \"use strict\" statement.",
+          "rulekey": "E007",
+          "severity": "major",
+          "reporter": "jshint",
+          "creationDate": 1499761071672
+        },
+        {
+          "line": 46,
+          "message": "Missing \"use strict\" statement.",
+          "description": "Missing \"use strict\" statement.",
+          "rulekey": "E007",
+          "severity": "major",
+          "reporter": "jshint",
+          "creationDate": 1499761071672
+        },
+        {
+          "line": 62,
+          "message": "Expected an assignment or function call and instead saw an expression.",
+          "description": "Expected an assignment or function call and instead saw an expression.",
+          "rulekey": "W030",
+          "severity": "major",
+          "reporter": "jshint",
+          "creationDate": 1499761071672
+        },
+        {
+          "line": 62,
+          "message": "Missing semicolon.",
+          "description": "Missing semicolon.",
+          "rulekey": "W033",
+          "severity": "major",
+          "reporter": "jshint",
+          "creationDate": 1499761071672
+        },
+        {
+          "line": 63,
+          "message": "Missing semicolon.",
+          "description": "Missing semicolon.",
+          "rulekey": "W033",
+          "severity": "major",
+          "reporter": "jshint",
+          "creationDate": 1499761071672
+        },
+        {
+          "line": 14,
+          "message": "'window' is not defined.",
+          "description": "'{a}' is not defined.",
+          "rulekey": "W117",
+          "severity": "major",
+          "reporter": "jshint",
+          "creationDate": 1499761071672
+        },
+        {
+          "line": 14,
+          "message": "'window' is not defined.",
+          "description": "'{a}' is not defined.",
+          "rulekey": "W117",
+          "severity": "major",
+          "reporter": "jshint",
+          "creationDate": 1499761071672
+        },
+        {
+          "line": 14,
+          "message": "'window' is not defined.",
+          "description": "'{a}' is not defined.",
+          "rulekey": "W117",
+          "severity": "major",
+          "reporter": "jshint",
+          "creationDate": 1499761071672
+        },
+        {
+          "line": 18,
+          "message": "'window' is not defined.",
+          "description": "'{a}' is not defined.",
+          "rulekey": "W117",
+          "severity": "major",
+          "reporter": "jshint",
+          "creationDate": 1499761071672
+        },
+        {
+          "line": 15,
+          "message": "'cordova' is not defined.",
+          "description": "'{a}' is not defined.",
+          "rulekey": "W117",
+          "severity": "major",
+          "reporter": "jshint",
+          "creationDate": 1499761071672
+        },
+        {
+          "line": 16,
+          "message": "'cordova' is not defined.",
+          "description": "'{a}' is not defined.",
+          "rulekey": "W117",
+          "severity": "major",
+          "reporter": "jshint",
+          "creationDate": 1499761071672
+        },
+        {
+          "line": 20,
+          "message": "'StatusBar' is not defined.",
+          "description": "'{a}' is not defined.",
+          "rulekey": "W117",
+          "severity": "major",
+          "reporter": "jshint",
+          "creationDate": 1499761071672
+        },
+        {
+          "line": 33,
+          "message": "'console' is not defined.",
+          "description": "'{a}' is not defined.",
+          "rulekey": "W117",
+          "severity": "major",
+          "reporter": "jshint",
+          "creationDate": 1499761071672
+        }
+      ]
+    },
+    {
+      "name": "controllers.js",
+      "path": "www/js/controllers.js",
+      "nbLines": 117,
+      "nbComments": 0,
+      "nbCloc": 111,
+      "violations": {
+        "blocker": 0,
+        "critical": 0,
+        "major": 40,
+        "minor": 0,
+        "info": 0
+      },
+      "issues": [
+        {
+          "line": 6,
+          "message": "Missing \"use strict\" statement.",
+          "description": "Missing \"use strict\" statement.",
+          "rulekey": "E007",
+          "severity": "major",
+          "reporter": "jshint",
+          "creationDate": 1499761071699
+        },
+        {
+          "line": 12,
+          "message": "Missing semicolon.",
+          "description": "Missing semicolon.",
+          "rulekey": "W033",
+          "severity": "major",
+          "reporter": "jshint",
+          "creationDate": 1499761071699
+        },
+        {
+          "line": 16,
+          "message": "'errorCode' is defined but never used.",
+          "description": "'{a}' is defined but never used.",
+          "rulekey": "W098",
+          "severity": "major",
+          "reporter": "jshint",
+          "creationDate": 1499761071699
+        },
+        {
+          "line": 17,
+          "message": "'errorMessage' is defined but never used.",
+          "description": "'{a}' is defined but never used.",
+          "rulekey": "W098",
+          "severity": "major",
+          "reporter": "jshint",
+          "creationDate": 1499761071699
+        },
+        {
+          "line": 20,
+          "message": "Missing semicolon.",
+          "description": "Missing semicolon.",
+          "rulekey": "W033",
+          "severity": "major",
+          "reporter": "jshint",
+          "creationDate": 1499761071699
+        },
+        {
+          "line": 25,
+          "message": "Missing semicolon.",
+          "description": "Missing semicolon.",
+          "rulekey": "W033",
+          "severity": "major",
+          "reporter": "jshint",
+          "creationDate": 1499761071699
+        },
+        {
+          "line": 28,
+          "message": "'errorCode' is defined but never used.",
+          "description": "'{a}' is defined but never used.",
+          "rulekey": "W098",
+          "severity": "major",
+          "reporter": "jshint",
+          "creationDate": 1499761071699
+        },
+        {
+          "line": 29,
+          "message": "'errorMessage' is defined but never used.",
+          "description": "'{a}' is defined but never used.",
+          "rulekey": "W098",
+          "severity": "major",
+          "reporter": "jshint",
+          "creationDate": 1499761071699
+        },
+        {
+          "line": 33,
+          "message": "Missing semicolon.",
+          "description": "Missing semicolon.",
+          "rulekey": "W033",
+          "severity": "major",
+          "reporter": "jshint",
+          "creationDate": 1499761071699
+        },
+        {
+          "line": 36,
+          "message": "'$scope' is defined but never used.",
+          "description": "'{a}' is defined but never used.",
+          "rulekey": "W098",
+          "severity": "major",
+          "reporter": "jshint",
+          "creationDate": 1499761071699
+        },
+        {
+          "line": 42,
+          "message": "Missing \"use strict\" statement.",
+          "description": "Missing \"use strict\" statement.",
+          "rulekey": "E007",
+          "severity": "major",
+          "reporter": "jshint",
+          "creationDate": 1499761071699
+        },
+        {
+          "line": 44,
+          "message": "Missing semicolon.",
+          "description": "Missing semicolon.",
+          "rulekey": "W033",
+          "severity": "major",
+          "reporter": "jshint",
+          "creationDate": 1499761071699
+        },
+        {
+          "line": 46,
+          "message": "Missing semicolon.",
+          "description": "Missing semicolon.",
+          "rulekey": "W033",
+          "severity": "major",
+          "reporter": "jshint",
+          "creationDate": 1499761071699
+        },
+        {
+          "line": 47,
+          "message": "Missing semicolon.",
+          "description": "Missing semicolon.",
+          "rulekey": "W033",
+          "severity": "major",
+          "reporter": "jshint",
+          "creationDate": 1499761071699
+        },
+        {
+          "line": 60,
+          "message": "Missing \"use strict\" statement.",
+          "description": "Missing \"use strict\" statement.",
+          "rulekey": "E007",
+          "severity": "major",
+          "reporter": "jshint",
+          "creationDate": 1499761071699
+        },
+        {
+          "line": 65,
+          "message": "Missing semicolon.",
+          "description": "Missing semicolon.",
+          "rulekey": "W033",
+          "severity": "major",
+          "reporter": "jshint",
+          "creationDate": 1499761071699
+        },
+        {
+          "line": 68,
+          "message": "Missing semicolon.",
+          "description": "Missing semicolon.",
+          "rulekey": "W033",
+          "severity": "major",
+          "reporter": "jshint",
+          "creationDate": 1499761071699
+        },
+        {
+          "line": 71,
+          "message": "Missing semicolon.",
+          "description": "Missing semicolon.",
+          "rulekey": "W033",
+          "severity": "major",
+          "reporter": "jshint",
+          "creationDate": 1499761071699
+        },
+        {
+          "line": 76,
+          "message": "Missing \"use strict\" statement.",
+          "description": "Missing \"use strict\" statement.",
+          "rulekey": "E007",
+          "severity": "major",
+          "reporter": "jshint",
+          "creationDate": 1499761071699
+        },
+        {
+          "line": 81,
+          "message": "Missing semicolon.",
+          "description": "Missing semicolon.",
+          "rulekey": "W033",
+          "severity": "major",
+          "reporter": "jshint",
+          "creationDate": 1499761071699
+        },
+        {
+          "line": 84,
+          "message": "Missing semicolon.",
+          "description": "Missing semicolon.",
+          "rulekey": "W033",
+          "severity": "major",
+          "reporter": "jshint",
+          "creationDate": 1499761071699
+        },
+        {
+          "line": 87,
+          "message": "Missing semicolon.",
+          "description": "Missing semicolon.",
+          "rulekey": "W033",
+          "severity": "major",
+          "reporter": "jshint",
+          "creationDate": 1499761071699
+        },
+        {
+          "line": 91,
+          "message": "Missing \"use strict\" statement.",
+          "description": "Missing \"use strict\" statement.",
+          "rulekey": "E007",
+          "severity": "major",
+          "reporter": "jshint",
+          "creationDate": 1499761071699
+        },
+        {
+          "line": 105,
+          "message": "Expected '{' and instead saw 'return'.",
+          "description": "Expected '{a}' and instead saw '{b}'.",
+          "rulekey": "W116",
+          "severity": "major",
+          "reporter": "jshint",
+          "creationDate": 1499761071699
+        },
+        {
+          "line": 111,
+          "message": "Missing semicolon.",
+          "description": "Missing semicolon.",
+          "rulekey": "W033",
+          "severity": "major",
+          "reporter": "jshint",
+          "creationDate": 1499761071699
+        },
+        {
+          "line": 114,
+          "message": "Missing semicolon.",
+          "description": "Missing semicolon.",
+          "rulekey": "W033",
+          "severity": "major",
+          "reporter": "jshint",
+          "creationDate": 1499761071699
+        },
+        {
+          "line": 6,
+          "message": "'console' is not defined.",
+          "description": "'{a}' is not defined.",
+          "rulekey": "W117",
+          "severity": "major",
+          "reporter": "jshint",
+          "creationDate": 1499761071699
+        },
+        {
+          "line": 11,
+          "message": "'console' is not defined.",
+          "description": "'{a}' is not defined.",
+          "rulekey": "W117",
+          "severity": "major",
+          "reporter": "jshint",
+          "creationDate": 1499761071699
+        },
+        {
+          "line": 18,
+          "message": "'console' is not defined.",
+          "description": "'{a}' is not defined.",
+          "rulekey": "W117",
+          "severity": "major",
+          "reporter": "jshint",
+          "creationDate": 1499761071699
+        },
+        {
+          "line": 24,
+          "message": "'console' is not defined.",
+          "description": "'{a}' is not defined.",
+          "rulekey": "W117",
+          "severity": "major",
+          "reporter": "jshint",
+          "creationDate": 1499761071699
+        },
+        {
+          "line": 30,
+          "message": "'console' is not defined.",
+          "description": "'{a}' is not defined.",
+          "rulekey": "W117",
+          "severity": "major",
+          "reporter": "jshint",
+          "creationDate": 1499761071699
+        },
+        {
+          "line": 69,
+          "message": "'console' is not defined.",
+          "description": "'{a}' is not defined.",
+          "rulekey": "W117",
+          "severity": "major",
+          "reporter": "jshint",
+          "creationDate": 1499761071699
+        },
+        {
+          "line": 85,
+          "message": "'console' is not defined.",
+          "description": "'{a}' is not defined.",
+          "rulekey": "W117",
+          "severity": "major",
+          "reporter": "jshint",
+          "creationDate": 1499761071699
+        },
+        {
+          "line": 113,
+          "message": "'console' is not defined.",
+          "description": "'{a}' is not defined.",
+          "rulekey": "W117",
+          "severity": "major",
+          "reporter": "jshint",
+          "creationDate": 1499761071699
+        },
+        {
+          "line": 46,
+          "message": "'firebase' is not defined.",
+          "description": "'{a}' is not defined.",
+          "rulekey": "W117",
+          "severity": "major",
+          "reporter": "jshint",
+          "creationDate": 1499761071699
+        },
+        {
+          "line": 68,
+          "message": "'firebase' is not defined.",
+          "description": "'{a}' is not defined.",
+          "rulekey": "W117",
+          "severity": "major",
+          "reporter": "jshint",
+          "creationDate": 1499761071699
+        },
+        {
+          "line": 84,
+          "message": "'firebase' is not defined.",
+          "description": "'{a}' is not defined.",
+          "rulekey": "W117",
+          "severity": "major",
+          "reporter": "jshint",
+          "creationDate": 1499761071699
+        },
+        {
+          "line": 114,
+          "message": "'firebase' is not defined.",
+          "description": "'{a}' is not defined.",
+          "rulekey": "W117",
+          "severity": "major",
+          "reporter": "jshint",
+          "creationDate": 1499761071699
+        },
+        {
+          "line": 110,
+          "message": "'$timeout' is not defined.",
+          "description": "'{a}' is not defined.",
+          "rulekey": "W117",
+          "severity": "major",
+          "reporter": "jshint",
+          "creationDate": 1499761071699
+        },
+        {
+          "line": 111,
+          "message": "'$state' is not defined.",
+          "description": "'{a}' is not defined.",
+          "rulekey": "W117",
+          "severity": "major",
+          "reporter": "jshint",
+          "creationDate": 1499761071699
+        }
+      ]
+    },
+    {
+      "name": "services.js",
+      "path": "www/js/services.js",
+      "nbLines": 135,
+      "nbComments": 0,
+      "nbCloc": 122,
+      "violations": {
+        "blocker": 0,
+        "critical": 0,
+        "major": 30,
+        "minor": 0,
+        "info": 0
+      },
+      "issues": [
+        {
+          "line": 4,
+          "message": "Missing \"use strict\" statement.",
+          "description": "Missing \"use strict\" statement.",
+          "rulekey": "E007",
+          "severity": "major",
+          "reporter": "jshint",
+          "creationDate": 1499761071728
+        },
+        {
+          "line": 4,
+          "message": "Missing semicolon.",
+          "description": "Missing semicolon.",
+          "rulekey": "W033",
+          "severity": "major",
+          "reporter": "jshint",
+          "creationDate": 1499761071728
+        },
+        {
+          "line": 5,
+          "message": "Missing semicolon.",
+          "description": "Missing semicolon.",
+          "rulekey": "W033",
+          "severity": "major",
+          "reporter": "jshint",
+          "creationDate": 1499761071728
+        },
+        {
+          "line": 28,
+          "message": "Missing semicolon.",
+          "description": "Missing semicolon.",
+          "rulekey": "W033",
+          "severity": "major",
+          "reporter": "jshint",
+          "creationDate": 1499761071728
+        },
+        {
+          "line": 30,
+          "message": "Missing semicolon.",
+          "description": "Missing semicolon.",
+          "rulekey": "W033",
+          "severity": "major",
+          "reporter": "jshint",
+          "creationDate": 1499761071728
+        },
+        {
+          "line": 36,
+          "message": "Missing semicolon.",
+          "description": "Missing semicolon.",
+          "rulekey": "W033",
+          "severity": "major",
+          "reporter": "jshint",
+          "creationDate": 1499761071728
+        },
+        {
+          "line": 42,
+          "message": "Missing semicolon.",
+          "description": "Missing semicolon.",
+          "rulekey": "W033",
+          "severity": "major",
+          "reporter": "jshint",
+          "creationDate": 1499761071728
+        },
+        {
+          "line": 46,
+          "message": "Missing semicolon.",
+          "description": "Missing semicolon.",
+          "rulekey": "W033",
+          "severity": "major",
+          "reporter": "jshint",
+          "creationDate": 1499761071728
+        },
+        {
+          "line": 47,
+          "message": "Missing semicolon.",
+          "description": "Missing semicolon.",
+          "rulekey": "W033",
+          "severity": "major",
+          "reporter": "jshint",
+          "creationDate": 1499761071728
+        },
+        {
+          "line": 53,
+          "message": "Missing semicolon.",
+          "description": "Missing semicolon.",
+          "rulekey": "W033",
+          "severity": "major",
+          "reporter": "jshint",
+          "creationDate": 1499761071728
+        },
+        {
+          "line": 62,
+          "message": "Missing semicolon.",
+          "description": "Missing semicolon.",
+          "rulekey": "W033",
+          "severity": "major",
+          "reporter": "jshint",
+          "creationDate": 1499761071728
+        },
+        {
+          "line": 63,
+          "message": "Missing semicolon.",
+          "description": "Missing semicolon.",
+          "rulekey": "W033",
+          "severity": "major",
+          "reporter": "jshint",
+          "creationDate": 1499761071728
+        },
+        {
+          "line": 64,
+          "message": "Missing semicolon.",
+          "description": "Missing semicolon.",
+          "rulekey": "W033",
+          "severity": "major",
+          "reporter": "jshint",
+          "creationDate": 1499761071728
+        },
+        {
+          "line": 71,
+          "message": "Missing semicolon.",
+          "description": "Missing semicolon.",
+          "rulekey": "W033",
+          "severity": "major",
+          "reporter": "jshint",
+          "creationDate": 1499761071728
+        },
+        {
+          "line": 72,
+          "message": "Missing semicolon.",
+          "description": "Missing semicolon.",
+          "rulekey": "W033",
+          "severity": "major",
+          "reporter": "jshint",
+          "creationDate": 1499761071728
+        },
+        {
+          "line": 81,
+          "message": "Missing semicolon.",
+          "description": "Missing semicolon.",
+          "rulekey": "W033",
+          "severity": "major",
+          "reporter": "jshint",
+          "creationDate": 1499761071728
+        },
+        {
+          "line": 83,
+          "message": "Missing semicolon.",
+          "description": "Missing semicolon.",
+          "rulekey": "W033",
+          "severity": "major",
+          "reporter": "jshint",
+          "creationDate": 1499761071728
+        },
+        {
+          "line": 85,
+          "message": "Missing semicolon.",
+          "description": "Missing semicolon.",
+          "rulekey": "W033",
+          "severity": "major",
+          "reporter": "jshint",
+          "creationDate": 1499761071728
+        },
+        {
+          "line": 5,
+          "message": "'initialized' is defined but never used.",
+          "description": "'{a}' is defined but never used.",
+          "rulekey": "W098",
+          "severity": "major",
+          "reporter": "jshint",
+          "creationDate": 1499761071728
+        },
+        {
+          "line": 3,
+          "message": "'$timeout' is defined but never used.",
+          "description": "'{a}' is defined but never used.",
+          "rulekey": "W098",
+          "severity": "major",
+          "reporter": "jshint",
+          "creationDate": 1499761071728
+        },
+        {
+          "line": 3,
+          "message": "'$state' is defined but never used.",
+          "description": "'{a}' is defined but never used.",
+          "rulekey": "W098",
+          "severity": "major",
+          "reporter": "jshint",
+          "creationDate": 1499761071728
+        },
+        {
+          "line": 92,
+          "message": "Missing \"use strict\" statement.",
+          "description": "Missing \"use strict\" statement.",
+          "rulekey": "E007",
+          "severity": "major",
+          "reporter": "jshint",
+          "creationDate": 1499761071728
+        },
+        {
+          "line": 22,
+          "message": "'firebase' is not defined.",
+          "description": "'{a}' is not defined.",
+          "rulekey": "W117",
+          "severity": "major",
+          "reporter": "jshint",
+          "creationDate": 1499761071728
+        },
+        {
+          "line": 23,
+          "message": "'firebase' is not defined.",
+          "description": "'{a}' is not defined.",
+          "rulekey": "W117",
+          "severity": "major",
+          "reporter": "jshint",
+          "creationDate": 1499761071728
+        },
+        {
+          "line": 27,
+          "message": "'firebase' is not defined.",
+          "description": "'{a}' is not defined.",
+          "rulekey": "W117",
+          "severity": "major",
+          "reporter": "jshint",
+          "creationDate": 1499761071728
+        },
+        {
+          "line": 46,
+          "message": "'firebase' is not defined.",
+          "description": "'{a}' is not defined.",
+          "rulekey": "W117",
+          "severity": "major",
+          "reporter": "jshint",
+          "creationDate": 1499761071728
+        },
+        {
+          "line": 53,
+          "message": "'firebase' is not defined.",
+          "description": "'{a}' is not defined.",
+          "rulekey": "W117",
+          "severity": "major",
+          "reporter": "jshint",
+          "creationDate": 1499761071728
+        },
+        {
+          "line": 60,
+          "message": "'firebase' is not defined.",
+          "description": "'{a}' is not defined.",
+          "rulekey": "W117",
+          "severity": "major",
+          "reporter": "jshint",
+          "creationDate": 1499761071728
+        },
+        {
+          "line": 70,
+          "message": "'firebase' is not defined.",
+          "description": "'{a}' is not defined.",
+          "rulekey": "W117",
+          "severity": "major",
+          "reporter": "jshint",
+          "creationDate": 1499761071728
+        },
+        {
+          "line": 29,
+          "message": "'console' is not defined.",
+          "description": "'{a}' is not defined.",
+          "rulekey": "W117",
+          "severity": "major",
+          "reporter": "jshint",
+          "creationDate": 1499761071728
+        }
+      ]
+    }
+  ],
+  "nbFiles": 3,
+  "nbLines": 371,
+  "nbCloc": 352,
+  "nbComments": 0,
+  "violations": {
+    "blocker": 0,
+    "critical": 0,
+    "major": 83,
+    "minor": 0,
+    "info": 0
+  }
+}
