@@ -21,9 +21,9 @@
     {
       "name": "login.html",
       "path": "www/templates/login.html",
-      "nbLines": 20,
+      "nbLines": 21,
       "nbComments": 0,
-      "nbCloc": 20,
+      "nbCloc": 19,
       "violations": {
         "blocker": 0,
         "critical": 0,
@@ -39,7 +39,7 @@
           "rulekey": "attr-lowercase",
           "severity": "major",
           "reporter": "htmlhint",
-          "creationDate": 1499761071736
+          "creationDate": 1499807780029
         }
       ]
     },
@@ -48,7 +48,7 @@
       "path": "www/templates/registroUsuario.html",
       "nbLines": 49,
       "nbComments": 0,
-      "nbCloc": 49,
+      "nbCloc": 47,
       "violations": {
         "blocker": 0,
         "critical": 0,
@@ -76,17 +76,27 @@
     {
       "name": "tab-chats.html",
       "path": "www/templates/tab-chats.html",
-      "nbLines": 16,
+      "nbLines": 22,
       "nbComments": 0,
-      "nbCloc": 14,
+      "nbCloc": 20,
       "violations": {
         "blocker": 0,
         "critical": 0,
-        "major": 0,
+        "major": 1,
         "minor": 0,
         "info": 0
       },
-      "issues": []
+      "issues": [
+        {
+          "line": 2,
+          "message": "The attribute name of [ hasHeader ] must be in lowercase.",
+          "description": "All attribute names must be in lowercase.",
+          "rulekey": "attr-lowercase",
+          "severity": "major",
+          "reporter": "htmlhint",
+          "creationDate": 1499807780032
+        }
+      ]
     },
     {
       "name": "tab-dash.html",
@@ -120,13 +130,13 @@
     }
   ],
   "nbFiles": 7,
-  "nbLines": 149,
-  "nbCloc": 142,
+  "nbLines": 156,
+  "nbCloc": 145,
   "nbComments": 0,
   "violations": {
     "blocker": 0,
     "critical": 0,
-    "major": 1,
+    "major": 2,
     "minor": 0,
     "info": 0
   }

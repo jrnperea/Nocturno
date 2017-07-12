@@ -6,9 +6,9 @@
     {
       "name": "app.js",
       "path": "www/js/app.js",
-      "nbLines": 119,
+      "nbLines": 112,
       "nbComments": 0,
-      "nbCloc": 119,
+      "nbCloc": 96,
       "violations": {
         "blocker": 0,
         "critical": 0,
@@ -18,134 +18,134 @@
       },
       "issues": [
         {
-          "line": 11,
+          "line": 4,
           "message": "Missing \"use strict\" statement.",
           "description": "Missing \"use strict\" statement.",
           "rulekey": "E007",
           "severity": "major",
           "reporter": "jshint",
-          "creationDate": 1499761071672
+          "creationDate": 1499807779962
         },
         {
-          "line": 46,
+          "line": 39,
           "message": "Missing \"use strict\" statement.",
           "description": "Missing \"use strict\" statement.",
           "rulekey": "E007",
           "severity": "major",
           "reporter": "jshint",
-          "creationDate": 1499761071672
+          "creationDate": 1499807779962
         },
         {
-          "line": 62,
+          "line": 55,
           "message": "Expected an assignment or function call and instead saw an expression.",
           "description": "Expected an assignment or function call and instead saw an expression.",
           "rulekey": "W030",
           "severity": "major",
           "reporter": "jshint",
-          "creationDate": 1499761071672
+          "creationDate": 1499807779962
         },
         {
-          "line": 62,
+          "line": 55,
           "message": "Missing semicolon.",
           "description": "Missing semicolon.",
           "rulekey": "W033",
           "severity": "major",
           "reporter": "jshint",
-          "creationDate": 1499761071672
+          "creationDate": 1499807779962
         },
         {
-          "line": 63,
+          "line": 56,
           "message": "Missing semicolon.",
           "description": "Missing semicolon.",
           "rulekey": "W033",
           "severity": "major",
           "reporter": "jshint",
-          "creationDate": 1499761071672
+          "creationDate": 1499807779962
         },
         {
-          "line": 14,
+          "line": 7,
           "message": "'window' is not defined.",
           "description": "'{a}' is not defined.",
           "rulekey": "W117",
           "severity": "major",
           "reporter": "jshint",
-          "creationDate": 1499761071672
+          "creationDate": 1499807779962
         },
         {
-          "line": 14,
+          "line": 7,
           "message": "'window' is not defined.",
           "description": "'{a}' is not defined.",
           "rulekey": "W117",
           "severity": "major",
           "reporter": "jshint",
-          "creationDate": 1499761071672
+          "creationDate": 1499807779962
         },
         {
-          "line": 14,
+          "line": 7,
           "message": "'window' is not defined.",
           "description": "'{a}' is not defined.",
           "rulekey": "W117",
           "severity": "major",
           "reporter": "jshint",
-          "creationDate": 1499761071672
+          "creationDate": 1499807779962
         },
         {
-          "line": 18,
+          "line": 11,
           "message": "'window' is not defined.",
           "description": "'{a}' is not defined.",
           "rulekey": "W117",
           "severity": "major",
           "reporter": "jshint",
-          "creationDate": 1499761071672
+          "creationDate": 1499807779962
         },
         {
-          "line": 15,
+          "line": 8,
           "message": "'cordova' is not defined.",
           "description": "'{a}' is not defined.",
           "rulekey": "W117",
           "severity": "major",
           "reporter": "jshint",
-          "creationDate": 1499761071672
+          "creationDate": 1499807779962
         },
         {
-          "line": 16,
+          "line": 9,
           "message": "'cordova' is not defined.",
           "description": "'{a}' is not defined.",
           "rulekey": "W117",
           "severity": "major",
           "reporter": "jshint",
-          "creationDate": 1499761071672
+          "creationDate": 1499807779962
         },
         {
-          "line": 20,
+          "line": 13,
           "message": "'StatusBar' is not defined.",
           "description": "'{a}' is not defined.",
           "rulekey": "W117",
           "severity": "major",
           "reporter": "jshint",
-          "creationDate": 1499761071672
+          "creationDate": 1499807779962
         },
         {
-          "line": 33,
+          "line": 26,
           "message": "'console' is not defined.",
           "description": "'{a}' is not defined.",
           "rulekey": "W117",
           "severity": "major",
           "reporter": "jshint",
-          "creationDate": 1499761071672
+          "creationDate": 1499807779962
         }
       ]
     },
     {
       "name": "controllers.js",
       "path": "www/js/controllers.js",
-      "nbLines": 117,
+      "nbLines": 133,
       "nbComments": 0,
-      "nbCloc": 111,
+      "nbCloc": 126,
       "violations": {
         "blocker": 0,
         "critical": 0,
-        "major": 40,
+        "major": 45,
         "minor": 0,
         "info": 0
       },
@@ -157,7 +157,7 @@
           "rulekey": "E007",
           "severity": "major",
           "reporter": "jshint",
-          "creationDate": 1499761071699
+          "creationDate": 1499807779993
         },
         {
           "line": 12,
@@ -166,7 +166,7 @@
           "rulekey": "W033",
           "severity": "major",
           "reporter": "jshint",
-          "creationDate": 1499761071699
+          "creationDate": 1499807779993
         },
         {
           "line": 16,
@@ -175,7 +175,7 @@
           "rulekey": "W098",
           "severity": "major",
           "reporter": "jshint",
-          "creationDate": 1499761071699
+          "creationDate": 1499807779993
         },
         {
           "line": 17,
@@ -184,7 +184,7 @@
           "rulekey": "W098",
           "severity": "major",
           "reporter": "jshint",
-          "creationDate": 1499761071699
+          "creationDate": 1499807779993
         },
         {
           "line": 20,
@@ -193,7 +193,7 @@
           "rulekey": "W033",
           "severity": "major",
           "reporter": "jshint",
-          "creationDate": 1499761071699
+          "creationDate": 1499807779993
         },
         {
           "line": 25,
@@ -202,7 +202,7 @@
           "rulekey": "W033",
           "severity": "major",
           "reporter": "jshint",
-          "creationDate": 1499761071699
+          "creationDate": 1499807779993
         },
         {
           "line": 28,
@@ -211,7 +211,7 @@
           "rulekey": "W098",
           "severity": "major",
           "reporter": "jshint",
-          "creationDate": 1499761071699
+          "creationDate": 1499807779993
         },
         {
           "line": 29,
@@ -220,7 +220,7 @@
           "rulekey": "W098",
           "severity": "major",
           "reporter": "jshint",
-          "creationDate": 1499761071699
+          "creationDate": 1499807779993
         },
         {
           "line": 33,
@@ -229,7 +229,7 @@
           "rulekey": "W033",
           "severity": "major",
           "reporter": "jshint",
-          "creationDate": 1499761071699
+          "creationDate": 1499807779993
         },
         {
           "line": 36,
@@ -238,7 +238,7 @@
           "rulekey": "W098",
           "severity": "major",
           "reporter": "jshint",
-          "creationDate": 1499761071699
+          "creationDate": 1499807779993
         },
         {
           "line": 42,
@@ -247,7 +247,7 @@
           "rulekey": "E007",
           "severity": "major",
           "reporter": "jshint",
-          "creationDate": 1499761071699
+          "creationDate": 1499807779993
         },
         {
           "line": 44,
@@ -256,7 +256,7 @@
           "rulekey": "W033",
           "severity": "major",
           "reporter": "jshint",
-          "creationDate": 1499761071699
+          "creationDate": 1499807779993
         },
         {
           "line": 46,
@@ -265,7 +265,7 @@
           "rulekey": "W033",
           "severity": "major",
           "reporter": "jshint",
-          "creationDate": 1499761071699
+          "creationDate": 1499807779993
         },
         {
           "line": 47,
@@ -274,43 +274,43 @@
           "rulekey": "W033",
           "severity": "major",
           "reporter": "jshint",
-          "creationDate": 1499761071699
+          "creationDate": 1499807779993
         },
         {
-          "line": 60,
+          "line": 59,
           "message": "Missing \"use strict\" statement.",
           "description": "Missing \"use strict\" statement.",
           "rulekey": "E007",
           "severity": "major",
           "reporter": "jshint",
-          "creationDate": 1499761071699
+          "creationDate": 1499807779993
         },
         {
-          "line": 65,
+          "line": 61,
           "message": "Missing semicolon.",
           "description": "Missing semicolon.",
           "rulekey": "W033",
           "severity": "major",
           "reporter": "jshint",
-          "creationDate": 1499761071699
+          "creationDate": 1499807779993
         },
         {
-          "line": 68,
+          "line": 63,
           "message": "Missing semicolon.",
           "description": "Missing semicolon.",
           "rulekey": "W033",
           "severity": "major",
           "reporter": "jshint",
-          "creationDate": 1499761071699
+          "creationDate": 1499807779993
         },
         {
-          "line": 71,
+          "line": 64,
           "message": "Missing semicolon.",
           "description": "Missing semicolon.",
           "rulekey": "W033",
           "severity": "major",
           "reporter": "jshint",
-          "creationDate": 1499761071699
+          "creationDate": 1499807779993
         },
         {
           "line": 76,
@@ -319,7 +319,7 @@
           "rulekey": "E007",
           "severity": "major",
           "reporter": "jshint",
-          "creationDate": 1499761071699
+          "creationDate": 1499807779993
         },
         {
           "line": 81,
@@ -328,7 +328,7 @@
           "rulekey": "W033",
           "severity": "major",
           "reporter": "jshint",
-          "creationDate": 1499761071699
+          "creationDate": 1499807779993
         },
         {
           "line": 84,
@@ -337,7 +337,7 @@
           "rulekey": "W033",
           "severity": "major",
           "reporter": "jshint",
-          "creationDate": 1499761071699
+          "creationDate": 1499807779993
         },
         {
           "line": 87,
@@ -346,43 +346,79 @@
           "rulekey": "W033",
           "severity": "major",
           "reporter": "jshint",
-          "creationDate": 1499761071699
+          "creationDate": 1499807779993
         },
         {
-          "line": 91,
+          "line": 92,
           "message": "Missing \"use strict\" statement.",
           "description": "Missing \"use strict\" statement.",
           "rulekey": "E007",
           "severity": "major",
           "reporter": "jshint",
-          "creationDate": 1499761071699
+          "creationDate": 1499807779993
         },
         {
-          "line": 105,
+          "line": 97,
+          "message": "Missing semicolon.",
+          "description": "Missing semicolon.",
+          "rulekey": "W033",
+          "severity": "major",
+          "reporter": "jshint",
+          "creationDate": 1499807779993
+        },
+        {
+          "line": 100,
+          "message": "Missing semicolon.",
+          "description": "Missing semicolon.",
+          "rulekey": "W033",
+          "severity": "major",
+          "reporter": "jshint",
+          "creationDate": 1499807779993
+        },
+        {
+          "line": 103,
+          "message": "Missing semicolon.",
+          "description": "Missing semicolon.",
+          "rulekey": "W033",
+          "severity": "major",
+          "reporter": "jshint",
+          "creationDate": 1499807779993
+        },
+        {
+          "line": 107,
+          "message": "Missing \"use strict\" statement.",
+          "description": "Missing \"use strict\" statement.",
+          "rulekey": "E007",
+          "severity": "major",
+          "reporter": "jshint",
+          "creationDate": 1499807779993
+        },
+        {
+          "line": 121,
           "message": "Expected '{' and instead saw 'return'.",
           "description": "Expected '{a}' and instead saw '{b}'.",
           "rulekey": "W116",
           "severity": "major",
           "reporter": "jshint",
-          "creationDate": 1499761071699
+          "creationDate": 1499807779993
         },
         {
-          "line": 111,
+          "line": 127,
           "message": "Missing semicolon.",
           "description": "Missing semicolon.",
           "rulekey": "W033",
           "severity": "major",
           "reporter": "jshint",
-          "creationDate": 1499761071699
+          "creationDate": 1499807779993
         },
         {
-          "line": 114,
+          "line": 130,
           "message": "Missing semicolon.",
           "description": "Missing semicolon.",
           "rulekey": "W033",
           "severity": "major",
           "reporter": "jshint",
-          "creationDate": 1499761071699
+          "creationDate": 1499807779993
         },
         {
           "line": 6,
@@ -391,7 +427,7 @@
           "rulekey": "W117",
           "severity": "major",
           "reporter": "jshint",
-          "creationDate": 1499761071699
+          "creationDate": 1499807779993
         },
         {
           "line": 11,
@@ -400,7 +436,7 @@
           "rulekey": "W117",
           "severity": "major",
           "reporter": "jshint",
-          "creationDate": 1499761071699
+          "creationDate": 1499807779993
         },
         {
           "line": 18,
@@ -409,7 +445,7 @@
           "rulekey": "W117",
           "severity": "major",
           "reporter": "jshint",
-          "creationDate": 1499761071699
+          "creationDate": 1499807779993
         },
         {
           "line": 24,
@@ -418,7 +454,7 @@
           "rulekey": "W117",
           "severity": "major",
           "reporter": "jshint",
-          "creationDate": 1499761071699
+          "creationDate": 1499807779993
         },
         {
           "line": 30,
@@ -427,16 +463,7 @@
           "rulekey": "W117",
           "severity": "major",
           "reporter": "jshint",
-          "creationDate": 1499761071699
-        },
-        {
-          "line": 69,
-          "message": "'console' is not defined.",
-          "description": "'{a}' is not defined.",
-          "rulekey": "W117",
-          "severity": "major",
-          "reporter": "jshint",
-          "creationDate": 1499761071699
+          "creationDate": 1499807779993
         },
         {
           "line": 85,
@@ -445,16 +472,25 @@
           "rulekey": "W117",
           "severity": "major",
           "reporter": "jshint",
-          "creationDate": 1499761071699
+          "creationDate": 1499807779993
         },
         {
-          "line": 113,
+          "line": 101,
           "message": "'console' is not defined.",
           "description": "'{a}' is not defined.",
           "rulekey": "W117",
           "severity": "major",
           "reporter": "jshint",
-          "creationDate": 1499761071699
+          "creationDate": 1499807779993
+        },
+        {
+          "line": 129,
+          "message": "'console' is not defined.",
+          "description": "'{a}' is not defined.",
+          "rulekey": "W117",
+          "severity": "major",
+          "reporter": "jshint",
+          "creationDate": 1499807779993
         },
         {
           "line": 46,
@@ -463,16 +499,16 @@
           "rulekey": "W117",
           "severity": "major",
           "reporter": "jshint",
-          "creationDate": 1499761071699
+          "creationDate": 1499807779993
         },
         {
-          "line": 68,
+          "line": 63,
           "message": "'firebase' is not defined.",
           "description": "'{a}' is not defined.",
           "rulekey": "W117",
           "severity": "major",
           "reporter": "jshint",
-          "creationDate": 1499761071699
+          "creationDate": 1499807779993
         },
         {
           "line": 84,
@@ -481,34 +517,43 @@
           "rulekey": "W117",
           "severity": "major",
           "reporter": "jshint",
-          "creationDate": 1499761071699
+          "creationDate": 1499807779993
         },
         {
-          "line": 114,
+          "line": 100,
           "message": "'firebase' is not defined.",
           "description": "'{a}' is not defined.",
           "rulekey": "W117",
           "severity": "major",
           "reporter": "jshint",
-          "creationDate": 1499761071699
+          "creationDate": 1499807779993
         },
         {
-          "line": 110,
+          "line": 130,
+          "message": "'firebase' is not defined.",
+          "description": "'{a}' is not defined.",
+          "rulekey": "W117",
+          "severity": "major",
+          "reporter": "jshint",
+          "creationDate": 1499807779993
+        },
+        {
+          "line": 126,
           "message": "'$timeout' is not defined.",
           "description": "'{a}' is not defined.",
           "rulekey": "W117",
           "severity": "major",
           "reporter": "jshint",
-          "creationDate": 1499761071699
+          "creationDate": 1499807779993
         },
         {
-          "line": 111,
+          "line": 127,
           "message": "'$state' is not defined.",
           "description": "'{a}' is not defined.",
           "rulekey": "W117",
           "severity": "major",
           "reporter": "jshint",
-          "creationDate": 1499761071699
+          "creationDate": 1499807779993
         }
       ]
     },
@@ -517,11 +562,11 @@
       "path": "www/js/services.js",
       "nbLines": 135,
       "nbComments": 0,
-      "nbCloc": 122,
+      "nbCloc": 123,
       "violations": {
         "blocker": 0,
         "critical": 0,
-        "major": 30,
+        "major": 31,
         "minor": 0,
         "info": 0
       },
@@ -533,7 +578,7 @@
           "rulekey": "E007",
           "severity": "major",
           "reporter": "jshint",
-          "creationDate": 1499761071728
+          "creationDate": 1499807780021
         },
         {
           "line": 4,
@@ -542,7 +587,7 @@
           "rulekey": "W033",
           "severity": "major",
           "reporter": "jshint",
-          "creationDate": 1499761071728
+          "creationDate": 1499807780021
         },
         {
           "line": 5,
@@ -551,7 +596,7 @@
           "rulekey": "W033",
           "severity": "major",
           "reporter": "jshint",
-          "creationDate": 1499761071728
+          "creationDate": 1499807780021
         },
         {
           "line": 28,
@@ -560,7 +605,7 @@
           "rulekey": "W033",
           "severity": "major",
           "reporter": "jshint",
-          "creationDate": 1499761071728
+          "creationDate": 1499807780021
         },
         {
           "line": 30,
@@ -569,7 +614,7 @@
           "rulekey": "W033",
           "severity": "major",
           "reporter": "jshint",
-          "creationDate": 1499761071728
+          "creationDate": 1499807780021
         },
         {
           "line": 36,
@@ -578,7 +623,7 @@
           "rulekey": "W033",
           "severity": "major",
           "reporter": "jshint",
-          "creationDate": 1499761071728
+          "creationDate": 1499807780021
         },
         {
           "line": 42,
@@ -587,7 +632,7 @@
           "rulekey": "W033",
           "severity": "major",
           "reporter": "jshint",
-          "creationDate": 1499761071728
+          "creationDate": 1499807780021
         },
         {
           "line": 46,
@@ -596,7 +641,7 @@
           "rulekey": "W033",
           "severity": "major",
           "reporter": "jshint",
-          "creationDate": 1499761071728
+          "creationDate": 1499807780021
         },
         {
           "line": 47,
@@ -605,25 +650,25 @@
           "rulekey": "W033",
           "severity": "major",
           "reporter": "jshint",
-          "creationDate": 1499761071728
+          "creationDate": 1499807780021
         },
         {
           "line": 53,
-          "message": "Missing semicolon.",
-          "description": "Missing semicolon.",
-          "rulekey": "W033",
+          "message": "Forgotten 'debugger' statement?",
+          "description": "Forgotten 'debugger' statement?",
+          "rulekey": "W087",
           "severity": "major",
           "reporter": "jshint",
-          "creationDate": 1499761071728
+          "creationDate": 1499807780021
         },
         {
-          "line": 62,
+          "line": 54,
           "message": "Missing semicolon.",
           "description": "Missing semicolon.",
           "rulekey": "W033",
           "severity": "major",
           "reporter": "jshint",
-          "creationDate": 1499761071728
+          "creationDate": 1499807780021
         },
         {
           "line": 63,
@@ -632,7 +677,7 @@
           "rulekey": "W033",
           "severity": "major",
           "reporter": "jshint",
-          "creationDate": 1499761071728
+          "creationDate": 1499807780021
         },
         {
           "line": 64,
@@ -641,16 +686,16 @@
           "rulekey": "W033",
           "severity": "major",
           "reporter": "jshint",
-          "creationDate": 1499761071728
+          "creationDate": 1499807780021
         },
         {
-          "line": 71,
+          "line": 65,
           "message": "Missing semicolon.",
           "description": "Missing semicolon.",
           "rulekey": "W033",
           "severity": "major",
           "reporter": "jshint",
-          "creationDate": 1499761071728
+          "creationDate": 1499807780021
         },
         {
           "line": 72,
@@ -659,16 +704,25 @@
           "rulekey": "W033",
           "severity": "major",
           "reporter": "jshint",
-          "creationDate": 1499761071728
+          "creationDate": 1499807780021
         },
         {
-          "line": 81,
+          "line": 73,
           "message": "Missing semicolon.",
           "description": "Missing semicolon.",
           "rulekey": "W033",
           "severity": "major",
           "reporter": "jshint",
-          "creationDate": 1499761071728
+          "creationDate": 1499807780021
+        },
+        {
+          "line": 82,
+          "message": "Missing semicolon.",
+          "description": "Missing semicolon.",
+          "rulekey": "W033",
+          "severity": "major",
+          "reporter": "jshint",
+          "creationDate": 1499807780021
         },
         {
           "line": 83,
@@ -677,7 +731,7 @@
           "rulekey": "W033",
           "severity": "major",
           "reporter": "jshint",
-          "creationDate": 1499761071728
+          "creationDate": 1499807780021
         },
         {
           "line": 85,
@@ -686,7 +740,7 @@
           "rulekey": "W033",
           "severity": "major",
           "reporter": "jshint",
-          "creationDate": 1499761071728
+          "creationDate": 1499807780021
         },
         {
           "line": 5,
@@ -695,7 +749,7 @@
           "rulekey": "W098",
           "severity": "major",
           "reporter": "jshint",
-          "creationDate": 1499761071728
+          "creationDate": 1499807780021
         },
         {
           "line": 3,
@@ -704,7 +758,7 @@
           "rulekey": "W098",
           "severity": "major",
           "reporter": "jshint",
-          "creationDate": 1499761071728
+          "creationDate": 1499807780021
         },
         {
           "line": 3,
@@ -713,7 +767,7 @@
           "rulekey": "W098",
           "severity": "major",
           "reporter": "jshint",
-          "creationDate": 1499761071728
+          "creationDate": 1499807780021
         },
         {
           "line": 92,
@@ -722,7 +776,7 @@
           "rulekey": "E007",
           "severity": "major",
           "reporter": "jshint",
-          "creationDate": 1499761071728
+          "creationDate": 1499807780021
         },
         {
           "line": 22,
@@ -731,7 +785,7 @@
           "rulekey": "W117",
           "severity": "major",
           "reporter": "jshint",
-          "creationDate": 1499761071728
+          "creationDate": 1499807780021
         },
         {
           "line": 23,
@@ -740,7 +794,7 @@
           "rulekey": "W117",
           "severity": "major",
           "reporter": "jshint",
-          "creationDate": 1499761071728
+          "creationDate": 1499807780021
         },
         {
           "line": 27,
@@ -749,7 +803,7 @@
           "rulekey": "W117",
           "severity": "major",
           "reporter": "jshint",
-          "creationDate": 1499761071728
+          "creationDate": 1499807780021
         },
         {
           "line": 46,
@@ -758,34 +812,34 @@
           "rulekey": "W117",
           "severity": "major",
           "reporter": "jshint",
-          "creationDate": 1499761071728
+          "creationDate": 1499807780021
         },
         {
-          "line": 53,
+          "line": 54,
           "message": "'firebase' is not defined.",
           "description": "'{a}' is not defined.",
           "rulekey": "W117",
           "severity": "major",
           "reporter": "jshint",
-          "creationDate": 1499761071728
+          "creationDate": 1499807780021
         },
         {
-          "line": 60,
+          "line": 61,
           "message": "'firebase' is not defined.",
           "description": "'{a}' is not defined.",
           "rulekey": "W117",
           "severity": "major",
           "reporter": "jshint",
-          "creationDate": 1499761071728
+          "creationDate": 1499807780021
         },
         {
-          "line": 70,
+          "line": 71,
           "message": "'firebase' is not defined.",
           "description": "'{a}' is not defined.",
           "rulekey": "W117",
           "severity": "major",
           "reporter": "jshint",
-          "creationDate": 1499761071728
+          "creationDate": 1499807780021
         },
         {
           "line": 29,
@@ -794,19 +848,19 @@
           "rulekey": "W117",
           "severity": "major",
           "reporter": "jshint",
-          "creationDate": 1499761071728
+          "creationDate": 1499807780021
         }
       ]
     }
   ],
   "nbFiles": 3,
-  "nbLines": 371,
-  "nbCloc": 352,
+  "nbLines": 380,
+  "nbCloc": 345,
   "nbComments": 0,
   "violations": {
     "blocker": 0,
     "critical": 0,
-    "major": 83,
+    "major": 89,
     "minor": 0,
     "info": 0
   }

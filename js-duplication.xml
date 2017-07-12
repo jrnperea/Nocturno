@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='UTF-8' ?><pmd-cpd> <duplication lines='21' tokens='91'> <file path='D:\projects\nocturno.bak\www\js\controllers.js' line='37'>[object Object] <codefragment><![CDATA[})
+
+.controller(&#x27;ChatsCtrl&#x27;, function($scope, $timeout, Chats, FirebaseDB, $state) {
+
+  $scope.doLogout = function () {
+    $timeout(function () {
+      $state.go(&#x27;login&#x27;, {})
+    }, 1);
+    firebase.auth().signOut()
+  }
+
+
+
+  $scope.chats = Chats.all();
+  $scope.remove = function(chat) {
+    Chats.remove(chat);
+  };
+})
+
+.controller(&#x27;ChatsCtrl&#x27;, function($scope, $timeout, Chats, FirebaseDB, $state) {
+
+  $scope.doLogout = function () {]]></codefragment> </file> <file path='D:\projects\nocturno.bak\www\js\controllers.js' line='54'>[object Object] <codefragment><![CDATA[})
+
+.controller(&#x27;ChatsCtrl&#x27;, function($scope, $timeout, Chats, FirebaseDB, $state) {
+
+  $scope.doLogout = function () {
+    $timeout(function () {
+      $state.go(&#x27;login&#x27;, {})
+    }, 1);
+    firebase.auth().signOut()
+  }
+
+
+
+  $scope.chats = Chats.all();
+  $scope.remove = function(chat) {
+    Chats.remove(chat);
+  };
+})
+
+
+.controller(&#x27;ChatDetailCtrl&#x27;, function($scope, $stateParams,$timeout, Chats, FirebaseDB, $state) {
+  $scope.chat = Chats.get($stateParams.chatId);]]></codefragment> </file> <codefragment><![CDATA[})
+
+.controller(&#x27;ChatsCtrl&#x27;, function($scope, $timeout, Chats, FirebaseDB, $state) {
+
+  $scope.doLogout = function () {
+    $timeout(function () {
+      $state.go(&#x27;login&#x27;, {})
+    }, 1);
+    firebase.auth().signOut()
+  }
+
+
+
+  $scope.chats = Chats.all();
+  $scope.remove = function(chat) {
+    Chats.remove(chat);
+  };
+})
+
+.controller(&#x27;ChatsCtrl&#x27;, function($scope, $timeout, Chats, FirebaseDB, $state) {
+
+  $scope.doLogout = function () {]]></codefragment> </duplication> <duplication lines='19' tokens='85'> <file path='D:\projects\nocturno.bak\www\js\controllers.js' line='71'>[object Object] <codefragment><![CDATA[})
+
+
+.controller(&#x27;ChatDetailCtrl&#x27;, function($scope, $stateParams,$timeout, Chats, FirebaseDB, $state) {
+  $scope.chat = Chats.get($stateParams.chatId);
+
+
+  $scope.doLogout = function () {
+    $timeout(function () {
+      $state.go(&#x27;login&#x27;, {})
+    }, 1);
+
+    firebase.auth().signOut()
+    console.log(&quot;Saliendo ...&quot;);
+
+  }
+})
+
+
+.controller(&#x27;ChatDetailCtrl&#x27;, function($scope, $stateParams,$timeout, Chats, FirebaseDB, $state) {]]></codefragment> </file> <file path='D:\projects\nocturno.bak\www\js\controllers.js' line='87'>[object Object] <codefragment><![CDATA[})
+
+
+.controller(&#x27;ChatDetailCtrl&#x27;, function($scope, $stateParams,$timeout, Chats, FirebaseDB, $state) {
+  $scope.chat = Chats.get($stateParams.chatId);
+
+
+  $scope.doLogout = function () {
+    $timeout(function () {
+      $state.go(&#x27;login&#x27;, {})
+    }, 1);
+
+    firebase.auth().signOut()
+    console.log(&quot;Saliendo ...&quot;);
+
+  }
+})
+
+.controller(&#x27;AccountCtrl&#x27;, function($scope) {
+    $scope.settings = {]]></codefragment> </file> <codefragment><![CDATA[})
+
+
+.controller(&#x27;ChatDetailCtrl&#x27;, function($scope, $stateParams,$timeout, Chats, FirebaseDB, $state) {
+  $scope.chat = Chats.get($stateParams.chatId);
+
+
+  $scope.doLogout = function () {
+    $timeout(function () {
+      $state.go(&#x27;login&#x27;, {})
+    }, 1);
+
+    firebase.auth().signOut()
+    console.log(&quot;Saliendo ...&quot;);
+
+  }
+})
+
+
+.controller(&#x27;ChatDetailCtrl&#x27;, function($scope, $stateParams,$timeout, Chats, FirebaseDB, $state) {]]></codefragment> </duplication></pmd-cpd>

@@ -123,27 +123,17 @@ SonarQube plugins:
   - SonarJS 3.0.0.4962 (javascript)
 Global properties:
   - sonar.core.id=AV0cBTSMP2e1A4zR3VcH
-  - sonar.core.startTime=2017-07-10T22:38:43-0500
+  - sonar.core.startTime=2017-07-11T04:08:13-0500
   - sonar.javascript.ignoreHeaderComments=true
-Settings for module: nocturno
-  - sonar.exclusions=node_modules/**/*, report/**/*, www/lib/**/*
+Settings for module: my-project
+  - sonar.exclusions=node_modules/**/*, report/**/*
   - sonar.projectBaseDir=D:\projects\nocturno.bak
-  - sonar.projectKey=nocturno
-  - sonar.projectName=nocturno
-  - sonar.projectVersion=1.0
-  - sonar.sii.coverage.it.js.report.path=reports/sonar/js-it.lcov
-  - sonar.sii.coverage.ut.js.report.path=reports/sonar/js-unit.lcov
-  - sonar.sii.duplication.css.report.path=reports/sonar/css-duplication.xml
-  - sonar.sii.duplication.html.report.path=reports/sonar/html-duplication.xml
-  - sonar.sii.duplication.js.report.path=reports/sonar/js-duplication.xml
-  - sonar.sii.duplication.scss.report.path=reports/sonar/scss-duplication.xml
+  - sonar.projectKey=my-project
+  - sonar.projectName=My Project Name
+  - sonar.projectVersion=0.1
   - sonar.sii.quality.angular.eslint.report.path=reports/sonar/eslint-angular.json
-  - sonar.sii.quality.css.report.path=reports/sonar/csslint.json
   - sonar.sii.quality.html.report.path=reports/sonar/htmlhint.json
   - sonar.sii.quality.js.report.path=reports/sonar/jshint.json
-  - sonar.sii.quality.scss.report.path=reports/sonar/scsslint.json
-  - sonar.sii.test.it.js.report.path=reports/sonar/js-it.xml
-  - sonar.sii.test.unit.js.report.path=reports/sonar/js-unit.xml
   - sonar.sourceEncoding=UTF-8
   - sonar.sources=D:/projects/nocturno.bak/www/
   - sonar.verbose=true
