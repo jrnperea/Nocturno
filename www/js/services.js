@@ -64,6 +64,13 @@ angular.module('starter.services', [])
             return authData
           })
       },
+
+      resetPassword: function (_credentials) {
+        return firebase.auth().sendPasswordResetEmail(_credentials.email)
+        .then(function (data) {
+          return data
+        })
+      },
       /**
        * @param  {any} _credentials
        */

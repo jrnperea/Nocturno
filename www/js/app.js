@@ -65,6 +65,13 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
 
   })
 
+  .state('resetPassword', {
+    url: '/reset-password',
+    templateUrl: 'templates/reset-password.html',
+    controller: 'LoginCtrl'
+
+  })
+
     // Each tab has its own nav history stack:
 
     .state('tab.dash', {

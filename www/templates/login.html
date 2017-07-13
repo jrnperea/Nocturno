@@ -1,21 +1,34 @@
-<ion-view title="Login" hasHeader hide-back-button="true">
-  <ion-content padding="true" class="has-header">
-    <form>
-      <ion-list>
-        <label class="item item-input">
-          <span class="input-label">Usuario:</span>
-          <input type="text" placeholder="Ingrese su usuario" ng-model="creds.email">
-        </label>
-        <label class="item item-input">
-          <span class="input-label">Password:</span>
-          <input type="password" placeholder="Ingrese su password" ng-model="creds.password">
-        </label>
-      </ion-list>
-      <div class="spacer" style="height: 40px;"></div>
-      <a ng-click="doLoginAction(creds)" class="button button-stable button-block">Iniciar sesion</a>
-      <a href="#/registroUsuario" class="button button-positive button-clear button-block">Registrarse</a>
-      <a href="#/registroUsuario" class="button button-stable button-block">Prueba para jenkins v3</a>
+<ion-view title="Nocturno"  hide-back-button="true">
 
-    </form>
-  </ion-content>
+    <ion-content padding="true" class="has-header">
+      <br>
+      <img ng-src="img/logo.png" class="logo">
+      <br>
+      <form name="loginForm" novalidate>
+        <div class="card">
+          <ion-list>
+            <label class="item item-input">
+              <input type="email" name="username" placeholder="Correo electrónico" ng-model="creds.email" required>
+            </label>
+
+            <label class="item item-input">
+              <input type="password" name="password" placeholder="Contraseña" ng-model="creds.password" minlength="6" required>
+            </label>
+          </ion-list>
+        </div>
+
+
+        <a ng-click="doLoginAction(creds)" class="button button-stable button-dark button-block"  ng-disabled="loginForm.$invalid">Iniciar Sesion</a>
+      </form>
+
+      <div class="center-text">
+        <a href="#/reset-password" >¿Has olvidado la contraseña?</a>
+      </div>
+      <!--  -->
+      <div class="footer center-text">
+        <a href="#/registroUsuario">¿Aún sin Nocturno?</a>
+      </div>
+
+    </ion-content>
+  </ion-view>
 </ion-view>

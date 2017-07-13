@@ -4,7 +4,7 @@ angular.module('starter.controllers', [])
   '$scope', '$state', '$timeout', 'FirebaseDB',
   function LoginCtrl($scope, $state, $timeout, FirebaseDB) {
     console.log("Login Controller");
-
+    $scope.resr = false;
     $scope.doLoginAction = function (_credentials) {
       FirebaseDB.login(_credentials)
       .then(function (authData) {
@@ -31,6 +31,29 @@ angular.module('starter.controllers', [])
       });
 
     }
+
+    $scope.doResetPassword = function (_credentials) {
+
+      console.log("Reset data creds:", _credentials.email);
+      FirebaseDB.resetPassword(_credentials).then(function (authData) {
+        $scope.resr = true;
+        $scope.$apply();
+        console.log("Reset done");
+        //$state.go('tab.chats', {})
+
+      }).catch(function (error) {
+        // Handle Errors here.
+        var errorCode = error.code;
+        var errorMessage = error.message;
+        console.error("Reset failed failed:", error);
+      });
+
+    }
+
+
+
+
+
   }])
 
 .controller('DashCtrl', function($scope) {
