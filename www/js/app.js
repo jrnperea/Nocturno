@@ -59,9 +59,9 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
     })
 
     .state('registroUsuario', {
-    url: '/registroUsuario',
-    templateUrl: 'templates/registroUsuario.html',
-    controller: ''
+    url: '/registro',
+    templateUrl: 'templates/registrar-usuario.html',
+    controller: 'LoginCtrl',
 
   })
 

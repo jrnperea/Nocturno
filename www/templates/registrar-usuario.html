@@ -1,0 +1,123 @@
+
+<ion-view title="Nocturno"  hide-back-button="true">
+
+  <ion-content   = "RegistroCtrl" >
+    <h5 align="center">Registrar Usuario</h5>
+
+    <img ng-src="img/logo.png" style="width: 100px"  class="logo">
+    <br>
+
+    <form  name = "myForm"  novalidate >
+      <div class="card">
+      <div  class = "list" >
+        <label  class = "item item-input" >
+
+          <input type="email"name="mail" ng-model ="creds.email" placeholder="Correo Electrónico *" ng-minlength = "3" required >
+        </label>
+        <div  class = "texto-rojo" >
+          <p  ng-show = "myForm.mail.$error.required" > Correo es requerido </p>
+          <p  ng-show = "myForm.mail.$error.minlength" > Correo debe tener mas de 3 caracteres </p>
+          <p  ng-show = "myForm.mail.$invalid && !myForm.mail.$pristine" > Debe ser una direccion de correo electronico </p>
+        </div>
+
+        <label class="item item-input item-select">
+          <div class="input-label">Rol</div>
+
+          <select data-ng-init="creds.rol = 'usu'"ng-model="creds.rol">
+            <option value="usu" selected="selected">Usuario</option>
+            <option value="pro">Proveedor</option>
+          </select>
+        </label>
+
+        <label class="item item-input item-select">
+          <div class="input-label">Documento</div>
+
+          <select data-ng-init="creds.tipodoc = 'ced'" ng-model="creds.tipodoc">
+            <option value="ced" selected>Cédula Ciudadania</option>
+            <option value="ext">Cédula Extranjeria</option>
+          </select>
+        </label>
+
+
+
+
+        <label  class = "item item-input" >
+
+          <input type="text"name="numdoc" ng-pattern="/^[0-9]*$/" ng-model ="creds.numdocumento" placeholder="Nro Documento *" ng-minlength = "8" ng-maxlength = "15" required >
+        </label>
+        <div  class = "texto-rojo" >
+          <p  ng-show = "myForm.numdoc.$error.required" > Nro documento requerido </p>
+          <p  ng-show = "myForm.numdoc.$error.minlength" > Debe tener mas de 8 caracteres </p>
+          <p  ng-show = "myForm.numdoc.$error.maxlength" > Debe tener menos de 15 caracteres </p>
+        </div>
+
+        <label  class = "item item-input" >
+
+          <input type="text"name="prinom"  ng-model ="creds.prinombre" placeholder="Primer Nombre *" ng-minlength = "3" ng-maxlength = "20" required >
+        </label>
+        <div  class = "texto-rojo" >
+          <p  ng-show = "myForm.prinom.$error.required" > Primer Nombre requerido </p>
+          <p  ng-show = "myForm.prinom.$error.minlength" >Debe tener mas de 3 caracteres </p>
+          <p  ng-show = "myForm.prinom.$error.maxlength" > Debe tener menos de 20 caracteres </p>
+        </div>
+
+        <label  class = "item item-input" >
+          <input type="text"name="segnom"  ng-model ="creds.segnombre" placeholder="Segundo Nombre" ng-minlength = "3" ng-maxlength = "20">
+        </label>
+        <div  class = "texto-rojo" >
+          <p  ng-show = "myForm.segnom.$error.minlength" >Debe tener mas de 3 caracteres </p>
+          <p  ng-show = "myForm.segnom.$error.maxlength" > Debe tener menos de 20 caracteres </p>
+        </div>
+
+        <label class = "item item-input" >
+         <input type="text"name="priape"  ng-model ="creds.priapellido" placeholder="Primer Apellido *" ng-minlength = "3" ng-maxlength = "20" required >
+        </label>
+        <div  class = "texto-rojo" >
+          <p  ng-show = "myForm.priape.$error.required" >Primer Apellido requerido </p>
+          <p  ng-show = "myForm.priape.$error.minlength" >Debe tener mas de 3 caracteres </p>
+          <p  ng-show = "myForm.priape.$error.maxlength" > Debe tener menos de 20 caracteres </p>
+        </div>
+
+
+        <label  class = "item item-input" >
+          <input type="text"name="segape"  ng-model ="creds.segapellido" placeholder="Segundo Apellido" ng-minlength = "3" ng-maxlength = "20">
+        </label>
+        <div  class = "texto-rojo" >
+          <p  ng-show = "myForm.segape.$error.minlength" >Debe tener mas de 3 caracteres </p>
+          <p  ng-show = "myForm.segnape.$error.maxlength" > Debe tener menos de 20 caracteres </p>
+        </div>
+
+
+
+        <label class="item item-input">
+          <input type="password" name="password" placeholder="Ingrese su contraseña" ng-model="creds.password" ng-minlength="6" required>
+        </label>
+        <div  class = "texto-rojo" >
+          <p  ng-show = "myForm.password.$error.required" >Ingrese contraseña </p>
+          <p  ng-show = "myForm.password.$error.minlength" >Debe tener mas de 6 caracteres </p>
+        </div>
+
+        <label class="item item-input">
+          <input type="password" name="confipassword" placeholder="Confirme su contraseña" ng-model="creds.confirpassword" ng-minlength="6" required>
+        </label>
+        <div  class = "texto-rojo" >
+          <p  ng-show = "myForm.password.$error.required" ></p>
+
+          <p  ng-show = "creds.confirpassword != creds.password" >Las contraseñas deben ser iguales </p>
+        </div>
+
+      </div>
+        <div  class = "texto-rojo" >
+          <p  ng-show = "regMessageShow">{{regMessage}}</p>
+        </div>
+
+      <div  class = "padding" >
+        <button  type = "button"   class = "button button-block button-dark"   ng-disabled = "myForm.$invalid || (creds.confirpassword != creds.password)"   ng-click = "doCreateUserAction(creds)" > Registrar Usuario </button>
+        <a href="#/login" type = "button"   class = "button button-block button-block" > Cancelar </a>
+      </div>
+      </div>
+    </form>
+  </ion-content>
+
+</ion-view>
+
