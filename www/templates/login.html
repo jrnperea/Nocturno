@@ -12,21 +12,24 @@
             </label>
 
             <label class="item item-input">
-              <input type="password" name="password" placeholder="Contraseña" ng-model="creds.password" minlength="6" required>
+              <input type="password" name="password" placeholder="Contraseña" ng-model="creds.password" required>
             </label>
           </ion-list>
         </div>
 
-
-        <a ng-click="doLoginAction(creds)" class="button button-stable button-dark button-block"  ng-disabled="loginForm.$invalid">Iniciar Sesion</a>
+        <a ng-click="doLoginAction(creds)" class="button button-stable button-dark button-block"  >Iniciar Sesion</a>
       </form>
 
       <div class="center-text">
         <a href="#/reset-password" >¿Has olvidado la contraseña?</a>
       </div>
+      <br>
+      <div  class = "texto-rojo center-text" >
+        <p  ng-show = "loginMessageShow">{{loginMessage}}</p>
+      </div>
       <!--  -->
       <div class="footer center-text">
-        <a href="#/registrar-usuario">¿Aún sin Nocturno?</a>
+        <a href="#/registro">¿Aún sin Nocturno?</a>
       </div>
 
     </ion-content>

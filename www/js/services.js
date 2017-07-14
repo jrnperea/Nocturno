@@ -75,26 +75,17 @@ angular.module('starter.services', [])
        * @param  {any} _credentials
        */
       createUser: function (_credentials) {
-        var datos = _credentials;
         return firebase.auth().createUserWithEmailAndPassword(_credentials.email, _credentials.password).then(function (authData) {
           currentUser = authData
           return authData
         }).then(function (authData) {
 
           // add the user to a seperate list
-          var ref = instance.database().ref('usuario');
+          var ref = instance.database().ref('Trash-Talk/users');
           return ref.child(authData.uid).set({
-            "provider": authData.providerData[0], // no borrar ni tocar
-
-
-            "email": datos.email,
-            "tipo_documento":datos.tipodoc ,
-            "rol": datos.rol,
-            "numero_documento": datos.numdocumento,
-            "primer_nombre": datos.prinombre,
-            "segundo_nombre":datos.segnombre ,
-            "primer_apellido": datos.priapellido,
-            "segundo_apellido": datos.segapellido
+            "provider": authData.providerData[0],
+            "avatar": (authData.profileImageURL || "missing"),
+            "displayName": authData.email
           })
         })
       }
